@@ -1,0 +1,26 @@
+[
+{
+  "name": "Godly Assassin",
+  "helmet": "minecraft:leather_helmet",
+  "chestplate": "Mail",
+  "leggings": "Mail",
+  "boots": "minecraft:leather_boots",
+  "potion": []
+},
+{
+  "name": "Skilled Assassin",
+  "helmet": "minecraft:leather_helmet",
+  "chestplate": "Leather",
+  "leggings": "Leather",
+  "boots": "minecraft:leather_boots",
+  "potion": []
+},
+{
+  "name": "Assassin",
+  "helmet": "minecraft:leather_helmet",
+  "chestplate": "",
+  "leggings": "",
+  "boots": "minecraft:leather_boots",
+  "potion": []
+}
+]
