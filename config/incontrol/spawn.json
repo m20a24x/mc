@@ -1,0 +1,10 @@
+[{
+	"dimension": 0,
+	"mincount": {
+		"amount": 30,
+      	"hostile": true,
+		"maxlight": 1,
+		"minlight": 0
+	},
+	"result": "deny"
+}]
