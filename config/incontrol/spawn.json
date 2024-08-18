@@ -4,7 +4,8 @@
 		"amount": 30,
       	"hostile": true,
 		"maxlight": 1,
-		"minlight": 0
+		"minlight": 0,
+		"perplayer": true
 	},
 	"result": "deny"
 }]
