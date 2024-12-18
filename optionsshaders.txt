@@ -1,4 +1,4 @@
-#Sat Jul 20 17:20:36 EDT 2024
+#Fri Feb 07 00:10:10 EST 2025
 shaderPack=Sildurs Vibrant Shaders v1.29 High-MB.zip
 antialiasingLevel=4
 normalMapEnabled=true

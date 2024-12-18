@@ -3,7 +3,7 @@
 	"mincount": {
 		"amount": 30,
       	"hostile": true,
-		"maxlight": 1,
+		"maxlight": 0,
 		"minlight": 0,
 		"perplayer": true
 	},
