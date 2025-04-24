@@ -1,11 +1,11 @@
 [{
 	"dimension": 0,
 	"mincount": {
-		"amount": 30,
+		"amount": 10,
       	"hostile": true,
 		"maxlight": 0,
 		"minlight": 0,
-		"perplayer": true
+		"perplayer": false
 	},
 	"result": "deny"
 }]

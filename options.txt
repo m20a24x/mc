@@ -4,7 +4,7 @@ mouseSensitivity:0.42957747
 fov:0.0
 gamma:0.0
 saturation:0.0
-renderDistance:16
+renderDistance:12
 guiScale:3
 particles:0
 bobView:true
@@ -91,13 +91,30 @@ key_Boost Key:0
 key_Mode Switch Key:0
 key_Side Inventory Key:0
 key_Hub Expand Key:0
+key_ir_keys.increase_throttle:72
+key_ir_keys.zero_throttle:76
+key_ir_keys.decrease_throttle:80
+key_ir_keys.increase_reverser:73
+key_ir_keys.zero_reverser:77
+key_ir_keys.decrease_reverser:81
+key_ir_keys.increase_brake:71
+key_ir_keys.zero_brake:75
+key_ir_keys.decrease_brake:79
+key_ir_keys.increase_independent_brake:71
+key_ir_keys.zero_independent_brake:75
+key_ir_keys.decrease_independent_brake:79
+key_ir_keys.horn:156
+key_ir_keys.dead_mans_switch:55
+key_ir_keys.start_stop_engine:78
+key_ir_keys.bell:74
+key_ir_keys.config:181
 key_tickratechanger.keybinding.5:0
 key_tickratechanger.keybinding.10:0
 key_tickratechanger.keybinding.15:0
-key_tickratechanger.keybinding.20:0
+key_tickratechanger.keybinding.20:21
 key_tickratechanger.keybinding.40:0
 key_tickratechanger.keybinding.60:0
-key_tickratechanger.keybinding.100:0
+key_tickratechanger.keybinding.100:23
 key_key.death_history:22
 key_Galaxy Map:50
 key_Open Spaceship Inventory:33
@@ -108,7 +125,7 @@ key_change selection UP:200
 key_change selection DOWN:208
 key_key.fart.desc:34
 key_key.pickup.item:0
-key_Options Gui:23
+key_Options Gui:0
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
@@ -134,13 +151,13 @@ key_Open Powered Vehicle Inventory:34
 key_Open Module Manager:35
 key_Open Pre Launch Checklist GUI:25
 key_Open Portable NASA Workbench GUI:24
+key_key.immersiveengineering.magnetEquip:31
+key_key.immersiveengineering.chemthrowerSwitch:0
 key_key.arms.desc:39
 key_key.mod.desc:40
 key_key.head.desc:35
-key_key.immersiveengineering.magnetEquip:31
-key_key.immersiveengineering.chemthrowerSwitch:0
-soundCategory_master:0.5
-soundCategory_music:0.2535211
+soundCategory_master:0.3576159
+soundCategory_music:0.1056338
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
