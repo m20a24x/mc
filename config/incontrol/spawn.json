@@ -1,7 +1,7 @@
 [{
 	"dimension": 0,
 	"mincount": {
-		"amount": 10,
+		"amount": 5,
       	"hostile": true,
 		"maxlight": 0,
 		"minlight": 0,

@@ -108,6 +108,13 @@ key_ir_keys.dead_mans_switch:55
 key_ir_keys.start_stop_engine:78
 key_ir_keys.bell:74
 key_ir_keys.config:181
+key_tickratechanger.keybinding.5:0
+key_tickratechanger.keybinding.10:0
+key_tickratechanger.keybinding.15:0
+key_tickratechanger.keybinding.20:0
+key_tickratechanger.keybinding.40:0
+key_tickratechanger.keybinding.60:0
+key_tickratechanger.keybinding.100:0
 key_key.death_history:22
 key_Galaxy Map:50
 key_Open Spaceship Inventory:33
@@ -146,17 +153,11 @@ key_Open Pre Launch Checklist GUI:25
 key_Open Portable NASA Workbench GUI:24
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
-key_techguns.key.toggleNightvision:49
-key_techguns.key.toggleSafemode:48
-key_techguns.key.toggleStepassist:47
-key_techguns.key.forceReload:19
-key_techguns.key.toggleJetpack:36
-key_Camping Inventory Key:34
 key_key.arms.desc:39
 key_key.mod.desc:40
 key_key.head.desc:35
-soundCategory_master:0.3576159
-soundCategory_music:0.1056338
+soundCategory_master:0.50993377
+soundCategory_music:0.2535211
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

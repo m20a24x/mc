@@ -1609,8 +1609,6 @@ ic2:fluid_cell:0, Universal Fluid Cell
 ic2:fluid_cell:0, Universal Fluid Cell
 ic2:fluid_cell:0, Universal Fluid Cell
 ic2:fluid_cell:0, Universal Fluid Cell
-ic2:fluid_cell:0, Universal Fluid Cell
-ic2:fluid_cell:0, Universal Fluid Cell
 ic2:cable:0, Copper Cable
 ic2:cable:0, Insulated Copper Cable
 ic2:cable:1, Glass Fibre Cable
@@ -7417,107 +7415,6 @@ appliedenergistics2:facade:0, Cable Facade - Heavy Engineering Block
 appliedenergistics2:facade:0, Cable Facade - Generator Block
 appliedenergistics2:facade:0, Cable Facade - Radiator Block
 appliedenergistics2:facade:0, Cable Facade - Asphalt Concrete
-appliedenergistics2:facade:0, Cable Facade - Infested Dirt
-appliedenergistics2:facade:0, Cable Facade - Infested Log
-appliedenergistics2:facade:0, Cable Facade - Infested Stone
-appliedenergistics2:facade:0, Cable Facade - Bloody Ice
-appliedenergistics2:facade:0, Cable Facade - Hive Core
-appliedenergistics2:facade:0, Cable Facade - Parasitic Colony Core
-appliedenergistics2:facade:0, Cable Facade - Parasitic Colony Outpost
-appliedenergistics2:facade:0, Cable Facade - §bBiome Purifier
-appliedenergistics2:facade:0, Cable Facade - Bruisewood Log
-appliedenergistics2:facade:0, Cable Facade - Veinwood Log
-appliedenergistics2:facade:0, Cable Facade - Darkwood Log
-appliedenergistics2:facade:0, Cable Facade - Hivesoil
-appliedenergistics2:facade:0, Cable Facade - Visceral Mud
-appliedenergistics2:facade:0, Cable Facade - Flesh Chunk
-appliedenergistics2:facade:0, Cable Facade - Compressed Arteries
-appliedenergistics2:facade:0, Cable Facade - Concentrated Flesh Chunk
-appliedenergistics2:facade:0, Cable Facade - Fortified Bone
-appliedenergistics2:facade:0, Cable Facade - Hivestone
-appliedenergistics2:facade:0, Cable Facade - Hivestone Debris
-appliedenergistics2:facade:0, Cable Facade - Consumed Wood
-appliedenergistics2:facade:0, Cable Facade - Hivestone Bricks
-appliedenergistics2:facade:0, Cable Facade - Hivesteel
-appliedenergistics2:facade:0, Cable Facade - Bleeding Obsidian
-appliedenergistics2:facade:0, Cable Facade - Assimilated Fungus
-appliedenergistics2:facade:0, Cable Facade - Incomplete Parasitic Colony Structure
-appliedenergistics2:facade:0, Cable Facade - Compressed Hivestone
-appliedenergistics2:facade:0, Cable Facade - Reinforced Hivestone
-appliedenergistics2:facade:0, Cable Facade - Parasitic Compressed Colony Stone
-appliedenergistics2:facade:0, Cable Facade - Fortified Bone
-appliedenergistics2:facade:0, Cable Facade - Lure (§4Weakened§f)
-appliedenergistics2:facade:0, Cable Facade - Lure (§cFaint§f)
-appliedenergistics2:facade:0, Cable Facade - Lure (§6Slender§f)
-appliedenergistics2:facade:0, Cable Facade - Lure (§eStable§f)
-appliedenergistics2:facade:0, Cable Facade - Lure (§2Substantial§f)
-appliedenergistics2:facade:0, Cable Facade - Lure (§aConcentrated§f)
-appliedenergistics2:facade:0, Cable Facade - Lure (§bConcentrated+§f)
-appliedenergistics2:facade:0, Cable Facade - Lure (§dConcentrated++§f)
-appliedenergistics2:facade:0, Cable Facade - tile.srparasites.evolutionlure_nine.name
-appliedenergistics2:facade:0, Cable Facade - tile.srparasites.evolutionlure_ten.name
-appliedenergistics2:facade:0, Cable Facade - Pestilential Coal Ore
-appliedenergistics2:facade:0, Cable Facade - Pestilential Diamond Ore
-appliedenergistics2:facade:0, Cable Facade - Pestilential Emerald Ore
-appliedenergistics2:facade:0, Cable Facade - Pestilential Gold Ore
-appliedenergistics2:facade:0, Cable Facade - Pestilential Iron Ore
-appliedenergistics2:facade:0, Cable Facade - Pestilential Lapis Lazuli Ore
-appliedenergistics2:facade:0, Cable Facade - Pestilential Redstone Ore
-appliedenergistics2:facade:0, Cable Facade - Pestilential Ore
-appliedenergistics2:facade:0, Cable Facade - Copper Ore
-appliedenergistics2:facade:0, Cable Facade - Tin Ore
-appliedenergistics2:facade:0, Cable Facade - Lead Ore
-appliedenergistics2:facade:0, Cable Facade - Titanium Ore
-appliedenergistics2:facade:0, Cable Facade - Uranium Ore
-appliedenergistics2:facade:0, Cable Facade - Red Container
-appliedenergistics2:facade:0, Cable Facade - Green Container
-appliedenergistics2:facade:0, Cable Facade - Blue Container
-appliedenergistics2:facade:0, Cable Facade - Yellow Container
-appliedenergistics2:facade:0, Cable Facade - Steel Panel
-appliedenergistics2:facade:0, Cable Facade - Silver Steel Panel
-appliedenergistics2:facade:0, Cable Facade - Carbon Panel
-appliedenergistics2:facade:0, Cable Facade - Dark Scaffold
-appliedenergistics2:facade:0, Cable Facade - Nether Metal (Plate)
-appliedenergistics2:facade:0, Cable Facade - Nether Metal (Grate)
-appliedenergistics2:facade:0, Cable Facade - Nether Metal (Small Grate)
-appliedenergistics2:facade:0, Cable Facade - Nether Metal (Bloody Grey)
-appliedenergistics2:facade:0, Cable Facade - Nether Metal (Grey)
-appliedenergistics2:facade:0, Cable Facade - Nether Metal (Grey Tiles)
-appliedenergistics2:facade:0, Cable Facade - Nether Metal (Red Pillar)
-appliedenergistics2:facade:0, Cable Facade - Nether Metal (Dark Pillar)
-appliedenergistics2:facade:0, Cable Facade - Nether Metal (Red Panel)
-appliedenergistics2:facade:0, Cable Facade - Nether Metal (Lava Pillar)
-appliedenergistics2:facade:0, Cable Facade - Reinforced Concrete
-appliedenergistics2:facade:0, Cable Facade - Reinforced Concrete (Light)
-appliedenergistics2:facade:0, Cable Facade - Reinforced Concrete (Grey)
-appliedenergistics2:facade:0, Cable Facade - Reinforced Concrete (Dark)
-appliedenergistics2:facade:0, Cable Facade - Reinforced Concrete (Pipes)
-appliedenergistics2:facade:0, Cable Facade - Reinforced Concrete (Steel Bars)
-appliedenergistics2:facade:0, Cable Facade - Double Neon Lights
-appliedenergistics2:facade:0, Cable Facade - Double Neon Lights (Rotated)
-appliedenergistics2:facade:0, Cable Facade - Quad Neon Lights
-appliedenergistics2:facade:0, Cable Facade - Quad Neon Lights (Rotated)
-appliedenergistics2:facade:0, Cable Facade - Square Neon Light
-appliedenergistics2:facade:0, Cable Facade - Ammo Crate
-appliedenergistics2:facade:0, Cable Facade - Weapon Crate
-appliedenergistics2:facade:0, Cable Facade - Armor Crate
-appliedenergistics2:facade:0, Cable Facade - Medical Crate
-appliedenergistics2:facade:0, Cable Facade - Explosives Crate
-appliedenergistics2:facade:0, Cable Facade - Supply Crate
-appliedenergistics2:facade:0, Cable Facade - Supply Crate
-appliedenergistics2:facade:0, Cable Facade - Supply Crate
-appliedenergistics2:facade:0, Cable Facade - Supply Crate
-appliedenergistics2:facade:0, Cable Facade - Hardened Sand
-appliedenergistics2:facade:0, Cable Facade - Strange Glowing Eggs
-appliedenergistics2:facade:0, Cable Facade - Ore Cluster (Coal)
-appliedenergistics2:facade:0, Cable Facade - Ore Cluster (Common Metal)
-appliedenergistics2:facade:0, Cable Facade - Ore Cluster (Rare Metal)
-appliedenergistics2:facade:0, Cable Facade - Ore Cluster (Shiny Metal)
-appliedenergistics2:facade:0, Cable Facade - Ore Cluster (Uranium)
-appliedenergistics2:facade:0, Cable Facade - Ore Cluster (Common Gem)
-appliedenergistics2:facade:0, Cable Facade - Ore Cluster (Shiny Gem)
-appliedenergistics2:facade:0, Cable Facade - Ore Cluster (Nether Crystal)
-appliedenergistics2:facade:0, Cable Facade - Ore Cluster (Oil)
 appliedenergistics2:facade:0, Cable Facade - Compact Raw Porkchop
 appliedenergistics2:facade:0, Cable Facade - Water Spring
 appliedenergistics2:facade:0, Cable Facade - Oil Spring
@@ -9276,34 +9173,34 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-tconstruct:pattern:0, Axe Head Pattern
-tconstruct:pattern:0, Bowlimb Pattern
-tconstruct:pattern:0, Hammer Head Pattern
-tconstruct:pattern:0, Tough Binding Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
-tconstruct:pattern:0, Excavator Head Pattern
-tconstruct:pattern:0, Tool Rod Pattern
-tconstruct:pattern:0, Broad Axe Head Pattern
-tconstruct:pattern:0, Binding Pattern
-tconstruct:pattern:0, Kama Head Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
-tconstruct:pattern:0, Cross Guard Pattern
-tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Hand Guard Pattern
-tconstruct:pattern:0, Large Plate Pattern
-tconstruct:pattern:0, Bowstring Pattern
-tconstruct:pattern:0, Large Sword Blade Pattern
 tconstruct:pattern:0, Pickaxe Head Pattern
-tconstruct:pattern:0, Wide Guard Pattern
-tconstruct:pattern:0, Fletching Pattern
-tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Scythe Head Pattern
-tconstruct:pattern:0, Shovel Head Pattern
-tconstruct:pattern:0, Shard Pattern
-tconstruct:pattern:0, Sharpening Kit Pattern
-tconstruct:pattern:0, Arrow Head Pattern
 tconstruct:pattern:0, Sword Blade Pattern
+tconstruct:pattern:0, Arrow Head Pattern
+tconstruct:pattern:0, Binding Pattern
+tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Large Plate Pattern
+tconstruct:pattern:0, Tool Rod Pattern
+tconstruct:pattern:0, Wide Guard Pattern
+tconstruct:pattern:0, Scythe Head Pattern
+tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Bowlimb Pattern
+tconstruct:pattern:0, Knife Blade Pattern
+tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Hand Guard Pattern
+tconstruct:pattern:0, Cross Guard Pattern
+tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Sharpening Kit Pattern
+tconstruct:pattern:0, Sign Plate Pattern
+tconstruct:pattern:0, Pan Pattern
+tconstruct:pattern:0, Broad Axe Head Pattern
+tconstruct:pattern:0, Bowstring Pattern
+tconstruct:pattern:0, Tough Binding Pattern
+tconstruct:pattern:0, Kama Head Pattern
+tconstruct:pattern:0, Hammer Head Pattern
+tconstruct:pattern:0, Excavator Head Pattern
+tconstruct:pattern:0, Axe Head Pattern
+tconstruct:pattern:0, Large Sword Blade Pattern
 tconstruct:shard:0, Wooden Shard
 tconstruct:shard:0, Stone Shard
 tconstruct:shard:0, Flint Shard
@@ -10295,62 +10192,62 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-tconstruct:cast:0, Axe Head Cast
-tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Hammer Head Cast
-tconstruct:cast:0, Tough Binding Cast
-tconstruct:cast:0, Excavator Head Cast
-tconstruct:cast:0, Tool Rod Cast
-tconstruct:cast:0, Broad Axe Head Cast
-tconstruct:cast:0, Binding Cast
-tconstruct:cast:0, Kama Head Cast
-tconstruct:cast:0, Tough Tool Rod Cast
-tconstruct:cast:0, Cross Guard Cast
-tconstruct:cast:0, Knife Blade Cast
-tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Hand Guard Cast
-tconstruct:cast:0, Large Plate Cast
-tconstruct:cast:0, Large Sword Blade Cast
 tconstruct:cast:0, Pickaxe Head Cast
-tconstruct:cast:0, Wide Guard Cast
-tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Scythe Head Cast
-tconstruct:cast:0, Shovel Head Cast
-tconstruct:cast:0, Shard Cast
-tconstruct:cast:0, Sharpening Kit Cast
-tconstruct:cast:0, Arrow Head Cast
 tconstruct:cast:0, Sword Blade Cast
+tconstruct:cast:0, Arrow Head Cast
+tconstruct:cast:0, Binding Cast
+tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Large Plate Cast
+tconstruct:cast:0, Tool Rod Cast
+tconstruct:cast:0, Wide Guard Cast
+tconstruct:cast:0, Scythe Head Cast
+tconstruct:cast:0, Bowlimb Cast
+tconstruct:cast:0, Knife Blade Cast
+tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Tough Tool Rod Cast
+tconstruct:cast:0, Hand Guard Cast
+tconstruct:cast:0, Cross Guard Cast
+tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Sign Plate Cast
+tconstruct:cast:0, Pan Cast
+tconstruct:cast:0, Broad Axe Head Cast
+tconstruct:cast:0, Tough Binding Cast
+tconstruct:cast:0, Kama Head Cast
+tconstruct:cast:0, Hammer Head Cast
+tconstruct:cast:0, Excavator Head Cast
+tconstruct:cast:0, Axe Head Cast
+tconstruct:cast:0, Large Sword Blade Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Axe Head Clay Cast
-tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Hammer Head Clay Cast
-tconstruct:clay_cast:0, Tough Binding Clay Cast
-tconstruct:clay_cast:0, Excavator Head Clay Cast
-tconstruct:clay_cast:0, Tool Rod Clay Cast
-tconstruct:clay_cast:0, Broad Axe Head Clay Cast
-tconstruct:clay_cast:0, Binding Clay Cast
-tconstruct:clay_cast:0, Kama Head Clay Cast
-tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
-tconstruct:clay_cast:0, Cross Guard Clay Cast
-tconstruct:clay_cast:0, Knife Blade Clay Cast
-tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Hand Guard Clay Cast
-tconstruct:clay_cast:0, Large Plate Clay Cast
-tconstruct:clay_cast:0, Large Sword Blade Clay Cast
 tconstruct:clay_cast:0, Pickaxe Head Clay Cast
-tconstruct:clay_cast:0, Wide Guard Clay Cast
-tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Scythe Head Clay Cast
-tconstruct:clay_cast:0, Shovel Head Clay Cast
-tconstruct:clay_cast:0, Shard Clay Cast
-tconstruct:clay_cast:0, Sharpening Kit Clay Cast
-tconstruct:clay_cast:0, Arrow Head Clay Cast
 tconstruct:clay_cast:0, Sword Blade Clay Cast
+tconstruct:clay_cast:0, Arrow Head Clay Cast
+tconstruct:clay_cast:0, Binding Clay Cast
+tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Large Plate Clay Cast
+tconstruct:clay_cast:0, Tool Rod Clay Cast
+tconstruct:clay_cast:0, Wide Guard Clay Cast
+tconstruct:clay_cast:0, Scythe Head Clay Cast
+tconstruct:clay_cast:0, Bowlimb Clay Cast
+tconstruct:clay_cast:0, Knife Blade Clay Cast
+tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
+tconstruct:clay_cast:0, Hand Guard Clay Cast
+tconstruct:clay_cast:0, Cross Guard Clay Cast
+tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Sign Plate Clay Cast
+tconstruct:clay_cast:0, Pan Clay Cast
+tconstruct:clay_cast:0, Broad Axe Head Clay Cast
+tconstruct:clay_cast:0, Tough Binding Clay Cast
+tconstruct:clay_cast:0, Kama Head Clay Cast
+tconstruct:clay_cast:0, Hammer Head Clay Cast
+tconstruct:clay_cast:0, Excavator Head Clay Cast
+tconstruct:clay_cast:0, Axe Head Clay Cast
+tconstruct:clay_cast:0, Large Sword Blade Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -10760,24 +10657,6 @@ immersivepetroleum:upgrades:2, Expanded Fuel Tank
 immersivepetroleum:upgrades:3, Maneuvering Rudders
 immersivepetroleum:upgrades:4, Emergency Paddles
 immersivepetroleum:oil_can, Lubricant Can
-ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
-ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
-ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
-ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
-ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
-ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
-ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
-ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
-ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
-ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
-ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
-ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
-ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
-ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
-ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
-ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
-ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
-ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 ironchest:iron_chest:0, Iron Chest
 ironchest:iron_chest:1, Gold Chest
 ironchest:iron_chest:2, Diamond Chest
@@ -10898,685 +10777,24 @@ ironchest:iron_shulker_box_black:3, Black Copper Shulker Box
 ironchest:iron_shulker_box_black:4, Black Silver Shulker Box
 ironchest:iron_shulker_box_black:5, Black Crystal Shulker Box
 ironchest:iron_shulker_box_black:6, Black Obsidian Shulker Box
-srparasites:infestedstain, Infested Dirt
-srparasites:infestremain, Infested Residue
-srparasites:infestedtrunk, Infested Log
-srparasites:infestedrubble, Infested Stone
-srparasites:infestedbush:0, Infested Vein Thorns
-srparasites:infestedbush:1, Infested Vein Branches
-srparasites:infestedbush:2, Infested Vein Sprout
-srparasites:infestedbush:3, Infested Veins Bush
-srparasites:infestedbush:4, Infested Vein Coil
-srparasites:infestedbush:5, Infested Vein Roots
-srparasites:bloodyice, Bloody Ice
-srparasites:biomeheart, Hive Core
-srparasites:colonyheart, Parasitic Colony Core
-srparasites:colonyoutpost, Parasitic Colony Outpost
-srparasites:biomepurifier, §bBiome Purifier
-srparasites:parasitebush:0, Capillary Net
-srparasites:parasitebush:1, Nerve Ringlet
-srparasites:parasitebush:2, Parasitic Vesicle
-srparasites:parasitebush:3, Terminal Blinder
-srparasites:parasitebush:4, Small Incisor
-srparasites:parasitecanister:0, §aBladder Sac
-srparasites:parasitecanister:1, Vacuous Cyst
-srparasites:parasitecanister:2, Grotesque Lump
-srparasites:parasitecanister:3, Sac of Flesh
-srparasites:parasitetrunk:0, Bruisewood Log
-srparasites:parasitetrunk:1, Veinwood Log
-srparasites:parasitetrunk:2, Darkwood Log
-srparasites:parasitestain:0, Hivesoil
-srparasites:parasitestain:1, Visceral Mud
-srparasites:parasitestain:2, Flesh Chunk
-srparasites:parasitestain:3, Compressed Arteries
-srparasites:parasiterubble:0, Concentrated Flesh Chunk
-srparasites:parasiterubble:1, Fortified Bone
-srparasites:parasiterubble:2, Hivestone
-srparasites:parasiterubble:3, Hivestone Debris
-srparasites:parasiterubble:4, Consumed Wood
-srparasites:parasiterubble:5, Hivestone Bricks
-srparasites:parasiterubble:6, Hivesteel
-srparasites:parasiterubble:7, Bleeding Obsidian
-srparasites:parasiterubble:8, Assimilated Fungus
-srparasites:parasitestructure, Incomplete Parasitic Colony Structure
-srparasites:parasitethin, Thin Parasitic Log
-srparasites:parasitesapling:0, Veinwood Sapling
-srparasites:parasitesapling:1, Eyesore Sapling
-srparasites:parasitesapling:2, Darkwood Sapling
-srparasites:parasitemouth, Maw
-srparasites:parasiterubbledense:0, Compressed Hivestone
-srparasites:parasiterubbledense:1, Reinforced Hivestone
-srparasites:parasiterubbledense:2, Parasitic Compressed Colony Stone
-srparasites:parasiterubble_bonestairs, Fortified Bone Stairs
-srparasites:parasitestain_fleshstairs, Flesh Chunk Stairs
-srparasites:parasiterubble_slabdouble, Fortified Bone
-srparasites:parasitetendril, Parasitic Tendril
-srparasites:parasitefog, Fog
-srparasites:srpweb:0, §8Thin Webbing
-srparasites:srpweb:1, §aToxicant Webbing
-srparasites:srpweb:2, §8Tarnished Webbing
-srparasites:evolutionlure:0, Lure (§4Weakened§f)
-srparasites:evolutionlure:1, Lure (§cFaint§f)
-srparasites:evolutionlure:2, Lure (§6Slender§f)
-srparasites:evolutionlure:3, Lure (§eStable§f)
-srparasites:evolutionlure:4, Lure (§2Substantial§f)
-srparasites:evolutionlure:5, Lure (§aConcentrated§f)
-srparasites:evolutionlure:6, Lure (§bConcentrated+§f)
-srparasites:evolutionlure:7, Lure (§dConcentrated++§f)
-srparasites:evolutionlure:8, tile.srparasites.evolutionlure_nine.name
-srparasites:evolutionlure:9, tile.srparasites.evolutionlure_ten.name
-srparasites:tunnel, Tunnel
-srparasites:gore:0, Assimilated Remains (S)
-srparasites:gore:1, Assimilated Remains (L)
-srparasites:gore:2, Primitive Remains (S)
-srparasites:gore:3, Primitive Remains (L)
-srparasites:gore:4, Adapted Remains (S)
-srparasites:gore:5, Adapted Remains (L)
-srparasites:gore:6, Pure Remains (S)
-srparasites:gore:7, Pure Remains (L)
-srparasites:gore:8, Assimilated Remains (M)
-srparasites:gore:9, Primitive Remains (M)
-srparasites:gore:10, Adapted Remains (M)
-srparasites:gore:11, Pure Remains (M)
-srparasites:canisteractive, Gluttonous Cyst
-srparasites:dispatchern, §cDispatcher Nidus
-srparasites:infestedore:0, Pestilential Coal Ore
-srparasites:infestedore:1, Pestilential Diamond Ore
-srparasites:infestedore:2, Pestilential Emerald Ore
-srparasites:infestedore:3, Pestilential Gold Ore
-srparasites:infestedore:4, Pestilential Iron Ore
-srparasites:infestedore:5, Pestilential Lapis Lazuli Ore
-srparasites:infestedore:6, Pestilential Redstone Ore
-srparasites:infestedore:7, Pestilential Ore
-srparasites:ada_summoner_drop, §bSummoner Core
-srparasites:ada_yelloweye_drop, §bYelloweye Bone
-srparasites:ada_manducater_drop, §bManducater Orb
-srparasites:ada_reeker_drop, §bReeker Fang
-srparasites:ada_longarms_drop, §bLongarm Armor Fragment
-srparasites:ada_bolster_drop, §bBolster Husk
-srparasites:ada_arachnida_drop, §bArachnida Claw
-srparasites:ada_devourer_drop, §bDevourer Tentacle
-srparasites:assimilated_flesh, Infected Flesh
-srparasites:beckon_drop, §aBeckon Membrane
-srparasites:dispatcher_drop, §cDispatcher Membrane
-srparasites:itemtab, §dNULL
-srparasites:itemassimilate, Assimilation Wand
-srparasites:itemevolve, Evolution Wand
-srparasites:itemdevolve, Devolution Wand
-srparasites:itemvariant, Variant Wand
-srparasites:itemthrow, §6Quench
-srparasites:evclock, §cBloody Clock
-srparasites:nodecompass, §cNode Compass
-srparasites:dried_tendons, §eDried Tendons
-srparasites:hardened_bone_handle, §eHardened Bone Handle
-srparasites:infectious_blade_fragment, §eInfectious Blade Fragment
-srparasites:living_core, §eLiving Core
-srparasites:vile_shell, §eVile Shell
-srparasites:bone, §eStrange Bone
-srparasites:lurecomponent1, §bRupter Viscera
-srparasites:lurecomponent2, §bDiseased Heart
-srparasites:lurecomponent3, §bAltered Tendons
-srparasites:lurecomponent4, §bToxic Lung
-srparasites:lurecomponent5, §bNoxious Brain
-srparasites:lurecomponent6, §bEssential Segment
-srparasites:itemmobspawner_dorpa, Spawn Assimilated Big Spider
-srparasites:itemmobspawner_infsquid, Spawn Assimilated Squid
-srparasites:itemmobspawner_infbear, Spawn Assimilated Bear
-srparasites:itemmobspawner_infhuman, Spawn Assimilated Human
-srparasites:itemmobspawner_infhumanhead, Spawn Walking Human Head
-srparasites:itemmobspawner_infenderman, Spawn Assimilated Enderman 
-srparasites:itemmobspawner_infendermanhead, Spawn Walking Enderman Head
-srparasites:itemmobspawner_infcow, Spawn Assimilated Cow
-srparasites:itemmobspawner_infcowhead, Spawn Walking Cow Head
-srparasites:itemmobspawner_infsheep, Spawn Assimilated Sheep
-srparasites:itemmobspawner_infsheephead, Spawn Walking Sheep Head
-srparasites:itemmobspawner_infwolf, Spawn Assimilated Wolf
-srparasites:itemmobspawner_infwolfhead, Spawn Walking Wolf Head
-srparasites:itemmobspawner_infpig, Spawn Assimilated Pig
-srparasites:itemmobspawner_infpighead, Spawn Walking Pig Head
-srparasites:itemmobspawner_infvillager, Spawn Assimilated Villager
-srparasites:itemmobspawner_infvillagerhead, Spawn Walking Villager Head
-srparasites:itemmobspawner_inhoos, Spawn Small Incomplete Form
-srparasites:itemmobspawner_inhoom, Spawn Medium Incomplete Form
-srparasites:itemmobspawner_infhorse, Spawn Assimilated Horse
-srparasites:itemmobspawner_infhorsehead, Spawn Walking Horse Head
-srparasites:itemmobspawner_infplayer, Spawn Assimilated Adventurer
-srparasites:itemmobspawner_infplayerhead, Spawn Walking Adventurer Head
-srparasites:itemmobspawner_infdragone, Spawn Assimilated Ender Dragon
-srparasites:itemmobspawner_infdragonehead, Spawn Walking Ender Dragon Head
-srparasites:itemmobspawner_ferbear, Spawn Feral Bear
-srparasites:itemmobspawner_ferhuman, Spawn Feral Human
-srparasites:itemmobspawner_fercow, Spawn Feral Cow
-srparasites:itemmobspawner_ferenderman, Spawn Feral Enderman
-srparasites:itemmobspawner_ferhorse, Spawn Feral Horse
-srparasites:itemmobspawner_ferpig, Spawn Feral Pig
-srparasites:itemmobspawner_fersheep, Spawn Feral Sheep
-srparasites:itemmobspawner_fervillager, Spawn Feral Villager
-srparasites:itemmobspawner_ferwolf, Spawn Feral Wolf
-srparasites:itemmobspawner_higolem, Spawn Hijacked Golem
-srparasites:itemmobspawner_hiblaze, Spawn Hijacked Blaze
-srparasites:itemmobspawner_hiskeleton, Spawn Hijacked Skeleton
-srparasites:itemmobspawner_host, Spawn Host
-srparasites:itemmobspawner_hostii, Spawn Herd
-srparasites:itemmobspawner_heed, Spawn Heed
-srparasites:itemmobspawner_cruxa, Spawn Crux
-srparasites:itemmobspawner_mes, Spawn Thrall
-srparasites:itemmobspawner_lesh, Spawn Moving Flesh
-srparasites:itemmobspawner_shyco, Spawn Primitive Longarms
-srparasites:itemmobspawner_canra, Spawn Primitive Summoner
-srparasites:itemmobspawner_nogla, Spawn Primitive Reeker
-srparasites:itemmobspawner_hull, Spawn Primitive Manducater
-srparasites:itemmobspawner_emana, Spawn Primitive Yelloweye
-srparasites:itemmobspawner_bano, Spawn Primitive Bolster
-srparasites:itemmobspawner_wymo, Spawn Primitive Tozoon 
-srparasites:itemmobspawner_iki, Spawn Primitive Vermin
-srparasites:itemmobspawner_ranrac, Spawn Primitive Arachnida
-srparasites:itemmobspawner_lum, Spawn Primitive Devourer
-srparasites:itemmobspawner_shycoadapted, Spawn Adapted Longarms
-srparasites:itemmobspawner_canraadapted, Spawn Adapted Summoner
-srparasites:itemmobspawner_noglaadapted, Spawn Adapted Reeker
-srparasites:itemmobspawner_hulladapted, Spawn Adapted Manducater
-srparasites:itemmobspawner_emanaadapted, Spawn Adapted Yelloweye
-srparasites:itemmobspawner_banoadapted, Spawn Adapted Bolster
-srparasites:itemmobspawner_ranracadapted, Spawn Adapted Arachnida
-srparasites:itemmobspawner_lodo, Spawn Buglin
-srparasites:itemmobspawner_mudo, Spawn Rupter
-srparasites:itemmobspawner_nuuh, Spawn Mangler
-srparasites:itemmobspawner_ata, Spawn Gnat
-srparasites:itemmobspawner_rathol, Spawn Heavy Carrier
-srparasites:itemmobspawner_gothol, Spawn Light Carrier
-srparasites:itemmobspawner_buthol, Spawn Flying Carrier
-srparasites:itemmobspawner_anged, Spawn Vigilante
-srparasites:itemmobspawner_venkrol, Spawn Beckon Stage I
-srparasites:itemmobspawner_venkrolsii, Spawn Beckon Stage II
-srparasites:itemmobspawner_venkrolsiii, Spawn Beckon Stage III
-srparasites:itemmobspawner_venkrolsiv, Spawn Beckon Stage IV
-srparasites:itemmobspawner_tonro, Spawn Kyphosis
-srparasites:itemmobspawner_unvo, Spawn Sentry 
-srparasites:itemmobspawner_nak, Spawn Seizer
-srparasites:itemmobspawner_dod, Spawn Dispatcher Stage I
-srparasites:itemmobspawner_dodsii, Spawn Dispatcher Stage II
-srparasites:itemmobspawner_dodsiii, Spawn Dispatcher Stage III
-srparasites:itemmobspawner_dodsiv, Spawn Dispatcher Stage IV
-srparasites:itemmobspawner_alafha, Spawn Overseer
-srparasites:itemmobspawner_ganro, Spawn Warden
-srparasites:itemmobspawner_omboo, Spawn Light Bomber
-srparasites:itemmobspawner_esor, Spawn Marauder
-srparasites:itemmobspawner_orch, Spawn Monarch 
-srparasites:itemmobspawner_flog, Spawn Grunt
-srparasites:itemmobspawner_jinjo, Spawn Heavy Bomber
-srparasites:itemmobspawner_pheon, Spawn Haunter
-srparasites:itemmobspawner_vesta, Spawn Colony Carrier
-srparasites:itemmobspawner_lencia, Spawn Bogle
-srparasites:itemmobspawner_elvia, Spawn Wraith
-srparasites:itemmobspawner_oronco, Spawn Ancient Dreadnaut
-srparasites:itemmobspawner_terla, Spawn Ancient Overlord
-srparasites:itemmobspawner_pod, Spawn Pod
-srparasites:weapon_scythe, §eLiving Scythe
-srparasites:weapon_scythe_sentient, §6Sentient Greatscythe
-srparasites:weapon_axe, §eLiving Axe
-srparasites:weapon_axe_sentient, §6Sentient Greataxe
-srparasites:weapon_sword, §eLiving Sword
-srparasites:weapon_sword_sentient, §6Sentient Greatsword
-srparasites:weapon_cleaver, §eLiving Cleaver
-srparasites:weapon_cleaver_sentient, §6Sentient Greatcleaver
-srparasites:weapon_bow, §eLiving Bow
-srparasites:weapon_bow_sentient, §6Sentient Greatbow
-srparasites:weapon_maul, §eLiving Maul 
-srparasites:weapon_maul_sentient, §6Sentient Greatmaul
-srparasites:weapon_lance, §eLiving Lance
-srparasites:weapon_lance_sentient, §6Sentient Greatlance
-srparasites:armor_helm, §eLiving Helm
-srparasites:armor_chest, §eLiving Chest
-srparasites:armor_pants, §eLiving Pants
-srparasites:armor_boots, §eLiving Boots
-srparasites:armor_helm_sentient, §6Sentient Helm
-srparasites:armor_chest_sentient, §6Sentient Chest
-srparasites:armor_pants_sentient, §6Sentient Pants
-srparasites:armor_boots_sentient, §6Sentient Boots
-srparasites:parasiterubble_slabhalf:0, Fortified Bone Slab
-techguns:basicmachine:0, Ammo Press
-techguns:basicmachine:1, Metal Press
-techguns:basicmachine:2, Chemical Laboratory
-techguns:basicmachine:3, Turret
-techguns:simplemachine:8, Camo Bench
-techguns:simplemachine:9, Repair Bench
-techguns:simplemachine:10, Charging Station
-techguns:simplemachine:11, Blast Furnace
-techguns:simplemachine2:8, Grinder
-techguns:simplemachine2:9, Upgrade Bench
-techguns:multiblockmachine:0, Fabricator Housing
-techguns:multiblockmachine:1, Fabricator Glass
-techguns:multiblockmachine:2, Fabricator Controller
-techguns:multiblockmachine:3, Reaction Chamber Housing
-techguns:multiblockmachine:4, Reaction Chamber Glass
-techguns:multiblockmachine:5, Reaction Chamber Controller
-techguns:basicore:0, Copper Ore
-techguns:basicore:1, Tin Ore
-techguns:basicore:2, Lead Ore
-techguns:basicore:3, Titanium Ore
-techguns:basicore:4, Uranium Ore
-techguns:bioblob:0, Bioblob
-techguns:sandbags, Sandbags
-techguns:lamp0:0, Lamp (Yellow)
-techguns:lamp0:6, Lamp (White)
-techguns:lamp0:12, Lantern (Yellow)
-techguns:lamp0:13, Lantern (White)
-techguns:metalpanel:0, Red Container
-techguns:metalpanel:1, Green Container
-techguns:metalpanel:2, Blue Container
-techguns:metalpanel:3, Yellow Container
-techguns:metalpanel:4, Steel Panel
-techguns:metalpanel:5, Silver Steel Panel
-techguns:metalpanel:6, Carbon Panel
-techguns:metalpanel:7, Dark Scaffold
-techguns:nethermetal:0, Nether Metal (Plate)
-techguns:nethermetal:1, Nether Metal (Grate)
-techguns:nethermetal:2, Nether Metal (Small Grate)
-techguns:nethermetal:3, Nether Metal (Bloody Grey)
-techguns:nethermetal:4, Nether Metal (Grey)
-techguns:nethermetal:5, Nether Metal (Grey Tiles)
-techguns:nethermetal:6, Nether Metal (Red Pillar)
-techguns:nethermetal:7, Nether Metal (Dark Pillar)
-techguns:nethermetal:8, Nether Metal (Red Panel)
-techguns:nethermetal:9, Nether Metal (Lava Pillar)
-techguns:concrete:0, Reinforced Concrete
-techguns:concrete:1, Reinforced Concrete (Light)
-techguns:concrete:2, Reinforced Concrete (Grey)
-techguns:concrete:3, Reinforced Concrete (Dark)
-techguns:concrete:4, Reinforced Concrete (Pipes)
-techguns:concrete:5, Reinforced Concrete (Steel Bars)
-techguns:ladder0:8, Ladder (Metal)
-techguns:ladder0:9, Ladder (Shiny)
-techguns:ladder0:10, Ladder (Rusty)
-techguns:ladder0:11, Ladder (Carbon)
-techguns:door3x3, tile.techguns.door3x3.name
-techguns:camonet:0, Camo Netting (Woodland)
-techguns:camonet:1, Camo Netting (Desert)
-techguns:camonet:2, Camo Netting (Snow)
-techguns:camonet_top:0, Camo Netting Top (Woodland)
-techguns:camonet_top:1, Camo Netting Top (Desert)
-techguns:camonet_top:2, Camo Netting Top (Snow)
-techguns:bunkerdoor, tile.techguns.bunkerdoor.name
-techguns:stairs_metal:7, Steel Panel Stairs
-techguns:stairs_metal:15, Carbon Panel Stairs
-techguns:stairs_concrete:7, Reinforced Concrete Stairs (Dark)
-techguns:stairs_concrete:15, Reinforced Concrete Stairs (Light)
-techguns:tg_spawner:0, Monster Hole
-techguns:tg_spawner:1, Military Spawn Point
-techguns:neonlights:0, Double Neon Lights
-techguns:neonlights:1, Double Neon Lights (Rotated)
-techguns:neonlights:2, Quad Neon Lights
-techguns:neonlights:3, Quad Neon Lights (Rotated)
-techguns:neonlights:4, Square Neon Light
-techguns:military_crate:0, Ammo Crate
-techguns:military_crate:1, Weapon Crate
-techguns:military_crate:2, Armor Crate
-techguns:military_crate:3, Medical Crate
-techguns:military_crate:4, Explosives Crate
-techguns:military_crate:5, Supply Crate
-techguns:military_crate:6, Supply Crate
-techguns:military_crate:7, Supply Crate
-techguns:military_crate:8, Supply Crate
-techguns:explosive_charge:0, Mining Charge
-techguns:explosive_charge:1, Advanced Mining Charge
-techguns:sand_hard:0, Hardened Sand
-techguns:slimy:0, Strange Glowing Eggs
-techguns:slimyladder:3, Slimy Trail
-techguns:orecluster:0, Ore Cluster (Coal)
-techguns:orecluster:1, Ore Cluster (Common Metal)
-techguns:orecluster:2, Ore Cluster (Rare Metal)
-techguns:orecluster:3, Ore Cluster (Shiny Metal)
-techguns:orecluster:4, Ore Cluster (Uranium)
-techguns:orecluster:5, Ore Cluster (Common Gem)
-techguns:orecluster:6, Ore Cluster (Shiny Gem)
-techguns:orecluster:7, Ore Cluster (Nether Crystal)
-techguns:orecluster:8, Ore Cluster (Oil)
-techguns:oredrill:0, Ore Drill Frame
-techguns:oredrill:1, Ore Drill Scaffold
-techguns:oredrill:2, Ore Drill Rod
-techguns:oredrill:3, Ore Drill Engine
-techguns:oredrill:4, Ore Drill Controller
-techguns:block_creeper_acid, Creeper Acid
-techguns:block_milk, Milk
-techguns:itemshared:0, Stone Bullets
-techguns:itemshared:1, Pistol Rounds
-techguns:itemshared:2, Shotgun Rounds
-techguns:itemshared:3, Rifle Rounds
-techguns:itemshared:4, Sniper Rounds
-techguns:itemshared:5, 40mm Grenade
-techguns:itemshared:6, Advanced Rounds
-techguns:itemshared:7, Rocket
-techguns:itemshared:8, Rifle Rounds Stack
-techguns:itemshared:9, SMG Magazine
-techguns:itemshared:10, SMG Magazine (Empty)
-techguns:itemshared:11, Pistol Magazine
-techguns:itemshared:12, Pistol Magazine (Empty)
-techguns:itemshared:13, Assault Rifle Magazine
-techguns:itemshared:14, Assault Rifle Magazine (Empty)
-techguns:itemshared:15, LMG Magazine
-techguns:itemshared:16, LMG Magazine (Empty)
-techguns:itemshared:17, Minigun Ammo Drum
-techguns:itemshared:18, Minigun Ammo Drum (Empty)
-techguns:itemshared:19, AS50 Magazine
-techguns:itemshared:20, AS50 Magazine (Empty)
-techguns:itemshared:21, Advanced Magazine
-techguns:itemshared:22, Advanced Magazine (Empty)
-techguns:itemshared:23, Compressed Air Tank
-techguns:itemshared:24, Compressed Air Tank (Empty)
-techguns:itemshared:25, Bio Tank
-techguns:itemshared:26, Bio Tank (Empty)
-techguns:itemshared:27, Fuel Tank
-techguns:itemshared:28, Fuel Tank (Empty)
-techguns:itemshared:29, Energy Cell
-techguns:itemshared:30, Energy Cell (Empty)
-techguns:itemshared:31, Nuclear Power Cell
-techguns:itemshared:32, Nuclear Power Cell (Depleted)
-techguns:itemshared:33, Iron Receiver
-techguns:itemshared:34, Steel Receiver
-techguns:itemshared:35, Hardened Receiver
-techguns:itemshared:36, Carbon Receiver
-techguns:itemshared:37, Stone Barrel
-techguns:itemshared:38, Iron Barrel
-techguns:itemshared:39, Hardened Barrel
-techguns:itemshared:40, Carbon Barrel
-techguns:itemshared:41, Laser Barrel
-techguns:itemshared:42, Wooden Gun Stock
-techguns:itemshared:43, Plastic Gun Stock
-techguns:itemshared:44, Carbon Gun Stock
-techguns:itemshared:45, Steam Armor Plating
-techguns:itemshared:46, Iron Plate
-techguns:itemshared:47, Copper Plate
-techguns:itemshared:48, Tin Plate
-techguns:itemshared:49, Bronze Plate
-techguns:itemshared:50, Steel Plate
-techguns:itemshared:51, Obsidian Steel Plate
-techguns:itemshared:52, Lead Plate
-techguns:itemshared:53, Carbon Plate
-techguns:itemshared:54, Titanium Plate
-techguns:itemshared:55, Plastic Sheet
-techguns:itemshared:56, Rubber Bar
-techguns:itemshared:57, Mechanical Parts (Iron)
-techguns:itemshared:58, Mechanical Parts (Hardened)
-techguns:itemshared:59, Mechanical Parts (Carbon)
-techguns:itemshared:60, Heavy Cloth
-techguns:itemshared:61, Bio Mass
-techguns:itemshared:62, Copper Wire
-techguns:itemshared:63, Gold Wire
-techguns:itemshared:64, Carbon Fibers
-techguns:itemshared:65, Circuit Board
-techguns:itemshared:66, Elite Circuit Board
-techguns:itemshared:67, Power Armor Plating
-techguns:itemshared:68, Coil
-techguns:itemshared:69, Cybernetic Parts
-techguns:itemshared:70, Electric Engine
-techguns:itemshared:71, Laser Focus
-techguns:itemshared:72, Pump Mechanism
-techguns:itemshared:73, Rad Emitter
-techguns:itemshared:74, Sonic Emitter
-techguns:itemshared:75, TGX
-techguns:itemshared:76, Nether Charge
-techguns:itemshared:77, Treated Leather
-techguns:itemshared:78, Titanium Ore
-techguns:itemshared:79, Copper Ingot
-techguns:itemshared:80, Tin Ingot
-techguns:itemshared:81, Bronze Ingot
-techguns:itemshared:82, Lead Ingot
-techguns:itemshared:83, Steel Ingot
-techguns:itemshared:84, Obsidian Steel Ingot
-techguns:itemshared:85, Titanium Ingot
-techguns:itemshared:86, Copper Nugget
-techguns:itemshared:87, Lead Nugget
-techguns:itemshared:88, Steel Nugget
-techguns:itemshared:89, Gas Mask Filter
-techguns:itemshared:90, Glider Backpack
-techguns:itemshared:91, Glider Wing
-techguns:itemshared:92, Anti Gravity Core
-techguns:itemshared:93, Oxygen Mask
-techguns:itemshared:94, Machine Upgrade (Stack Operation)
-techguns:itemshared:95, Raw Rubber
-techguns:itemshared:96, Raw Plastic
-techguns:itemshared:97, Yellowcake
-techguns:itemshared:98, Enriched Uranium
-techguns:itemshared:99, Turret Armor (Iron)
-techguns:itemshared:100, Turret Armor (Steel)
-techguns:itemshared:101, Turret Armor (Obsidian Steel)
-techguns:itemshared:102, Turret Armor (Carbon)
-techguns:itemshared:103, Quartz Rod
-techguns:itemshared:104, Reaction Chamber Heatray Focus
-techguns:itemshared:105, Reaction Chamber UV Emitter
-techguns:itemshared:106, §6Shotgun Rounds (Incediary)
-techguns:itemshared:107, §6AS50 Magazine (Incediary)
-techguns:itemshared:108, §6Sniper Rounds (Incediary)
-techguns:itemshared:109, §6Pistol Rounds (Incediary)
-techguns:itemshared:110, §6Rifle Rounds (Incediary)
-techguns:itemshared:111, §6Rifle Rounds Stack (Incediary)
-techguns:itemshared:112, §6SMG Magazine (Incediary)
-techguns:itemshared:113, §6Pistol Magazine (Incediary)
-techguns:itemshared:114, §6Minigun Ammo Drum (Incediary)
-techguns:itemshared:115, §6Assault Rifle Magazine (Incendiary)
-techguns:itemshared:116, §6LMG Magazine (Incendiary)
-techguns:itemshared:117, Rocket (Tactical Nuke)
-techguns:itemshared:118, Small Nuclear Warhead
-techguns:itemshared:119, Mining Drill (Obsidian)
-techguns:itemshared:120, Mining Drill (Carbon)
-techguns:itemshared:121, Powerhammer Head (Obsidian)
-techguns:itemshared:122, Powerhammer Head (Carbon)
-techguns:itemshared:123, Chainsaw Blades (Obsidian)
-techguns:itemshared:124, Chainsaw Blades (Carbon)
-techguns:itemshared:125, Redstone Battery
-techguns:itemshared:126, Redstone Battery (Empty)
-techguns:itemshared:127, Gauss Rifle Slugs
-techguns:itemshared:128, Gauss Rifle Barrel
-techguns:itemshared:129, Shielded Titanium Barrel
-techguns:itemshared:130, Titanium Receiver
-techguns:itemshared:131, Plasma Generator
-techguns:itemshared:132, Working Gloves
-techguns:itemshared:133, Protective Fiber
-techguns:itemshared:134, Small Ore Drill (Steel)
-techguns:itemshared:135, Small Ore Drill (Obsidian Steel)
-techguns:itemshared:136, Small Ore Drill (Carbon)
-techguns:itemshared:137, Small Ore Drill (Steel)
-techguns:itemshared:138, Medium Ore Drill (Obsidian Steel)
-techguns:itemshared:139, Medium Ore Drill (Carbon)
-techguns:itemshared:140, Large Ore Drill (Steel)
-techguns:itemshared:141, Large Ore Drill (Obsidian Steel)
-techguns:itemshared:142, Large Ore Drill (Carbon)
-techguns:itemshared:143, §4AS50 Magazine (Explosive)
-techguns:itemshared:144, §4Sniper Rounds (Explosive)
-techguns:itemshared:145, §eRocket (High Velocity)
-techguns:itemshared:146, Infusion Bag
-techguns:itemshared:147, Armor Upgrade: Protection I
-techguns:itemshared:148, Armor Upgrade: Projectile Protection I
-techguns:itemshared:149, Armor Upgrade: Blast Protection I
-techguns:itemshared:150, Armor Upgrade: Protection II
-techguns:itemshared:151, Armor Upgrade: Projectile Protection II
-techguns:itemshared:152, Armor Upgrade: Blast Protection II
-techguns:itemshared:153, Armor Upgrade: Protection III
-techguns:itemshared:154, Armor Upgrade: Projectile Protection III
-techguns:itemshared:155, Armor Upgrade: Blast Protection III
-techguns:radaway, RadAway
-techguns:radpills, Anti-RAD Pills
-techguns:gasmask, Gas Mask
-techguns:glider, Glider
-techguns:jumppack, Jumppack
-techguns:scubatanks, Oxygen Tanks
-techguns:nightvisiongoggles, Nightvision Goggles
-techguns:jetpack, Jetpack
-techguns:tacticalmask, Tactical Mask
-techguns:antigravpack, Anti Gravity Device
-techguns:item_door3x3:0, Techdoor
-techguns:item_door3x3:1, Hangar Door (Up)
-techguns:item_door3x3:2, Hangar Door (Down)
-techguns:item_door3x3:3, Techdoor (Nether)
-techguns:item_bunkerdoor, Bunker Door
-techguns:combatknife, Combat Knife
-techguns:crowbar, Crowbar
-techguns:t1_combat_helmet, item.t1_combat_helmet.name
-techguns:t1_combat_chestplate, item.t1_combat_chestplate.name
-techguns:t1_combat_leggings, item.t1_combat_leggings.name
-techguns:t1_combat_boots, item.t1_combat_boots.name
-techguns:t1_scout_helmet, item.t1_scout_helmet.name
-techguns:t1_scout_chestplate, item.t1_scout_chestplate.name
-techguns:t1_scout_leggings, item.t1_scout_leggings.name
-techguns:t1_scout_boots, item.t1_scout_boots.name
-techguns:t1_miner_helmet, item.t1_miner_helmet.name
-techguns:t1_miner_chestplate, item.t1_miner_chestplate.name
-techguns:t1_miner_leggings, item.t1_miner_leggings.name
-techguns:t1_miner_boots, item.t1_miner_boots.name
-techguns:steam_helmet, item.steam_helmet.name
-techguns:steam_chestplate, item.steam_chestplate.name
-techguns:steam_leggings, item.steam_leggings.name
-techguns:steam_boots, item.steam_boots.name
-techguns:hazmat_helmet, item.hazmat_helmet.name
-techguns:hazmat_chestplate, item.hazmat_chestplate.name
-techguns:hazmat_leggings, item.hazmat_leggings.name
-techguns:hazmat_boots, item.hazmat_boots.name
-techguns:t2_combat_helmet, item.t2_combat_helmet.name
-techguns:t2_combat_chestplate, item.t2_combat_chestplate.name
-techguns:t2_combat_leggings, item.t2_combat_leggings.name
-techguns:t2_combat_boots, item.t2_combat_boots.name
-techguns:t2_commando_helmet, item.t2_commando_helmet.name
-techguns:t2_commando_chestplate, item.t2_commando_chestplate.name
-techguns:t2_commando_leggings, item.t2_commando_leggings.name
-techguns:t2_commando_boots, item.t2_commando_boots.name
-techguns:t2_riot_helmet, item.t2_riot_helmet.name
-techguns:t2_riot_chestplate, item.t2_riot_chestplate.name
-techguns:t2_riot_leggings, item.t2_riot_leggings.name
-techguns:t2_riot_boots, item.t2_riot_boots.name
-techguns:t3_combat_helmet, item.t3_combat_helmet.name
-techguns:t3_combat_chestplate, item.t3_combat_chestplate.name
-techguns:t3_combat_leggings, item.t3_combat_leggings.name
-techguns:t3_combat_boots, item.t3_combat_boots.name
-techguns:t3_power_helmet, item.t3_power_helmet.name
-techguns:t3_power_chestplate, item.t3_power_chestplate.name
-techguns:t3_power_leggings, item.t3_power_leggings.name
-techguns:t3_power_boots, item.t3_power_boots.name
-techguns:t3_miner_helmet, item.t3_miner_helmet.name
-techguns:t3_miner_chestplate, item.t3_miner_chestplate.name
-techguns:t3_miner_leggings, item.t3_miner_leggings.name
-techguns:t3_miner_boots, item.t3_miner_boots.name
-techguns:t3_exo_helmet, item.t3_exo_helmet.name
-techguns:t3_exo_chestplate, item.t3_exo_chestplate.name
-techguns:t3_exo_leggings, item.t3_exo_leggings.name
-techguns:t3_exo_boots, item.t3_exo_boots.name
-techguns:t2_beret, item.t2_beret.name
-techguns:t4_praetor_helmet, item.t4_praetor_helmet.name
-techguns:t4_praetor_chestplate, item.t4_praetor_chestplate.name
-techguns:t4_praetor_leggings, item.t4_praetor_leggings.name
-techguns:t4_praetor_boots, item.t4_praetor_boots.name
-techguns:t4_power_helmet, item.t4_power_helmet.name
-techguns:t4_power_chestplate, item.t4_power_chestplate.name
-techguns:t4_power_leggings, item.t4_power_leggings.name
-techguns:t4_power_boots, item.t4_power_boots.name
-techguns:riot_shield, Riot Shield
-techguns:ballistic_shield, Ballistic Shield
-techguns:advanced_shield, Advanced Shield
-techguns:handcannon, Hand Cannon
-techguns:sawedoff, Double Barrel Shotgun
-techguns:revolver, Revolver
-techguns:goldenrevolver, Golden Revolver
-techguns:thompson, Thompson SMG
-techguns:ak47, AKM
-techguns:boltaction, Bolt Action Rifle
-techguns:m4, M4 Assault Rifle
-techguns:m4_infiltrator, The Infiltrator
-techguns:pistol, Pistol
-techguns:combatshotgun, Combat Shotgun
-techguns:mac10, Mac 10
-techguns:flamethrower, Flamethrower
-techguns:rocketlauncher, Rocket Launcher
-techguns:grimreaper, Grim Reaper
-techguns:grenadelauncher, Grenade Launcher
-techguns:aug, AUG
-techguns:netherblaster, Nether Blaster
-techguns:biogun, Biogun
-techguns:teslagun, Tesla Gun
-techguns:lmg, Light Machine Gun
-techguns:minigun, Minigun
-techguns:as50, AS50 Sniper Rifle
-techguns:vector, Vector
-techguns:scar, SCAR
-techguns:lasergun, Laser Rifle
-techguns:blasterrifle, Blaster Rifle
-techguns:scatterbeamrifle, Blaster Shotgun
-techguns:sonicshotgun, Sonic Rifle
-techguns:pdw, PDW
-techguns:pulserifle, Pulse Rifle
-techguns:mibgun, De-Atomizer Pistol
-techguns:alienblaster, Alien Blaster
-techguns:powerhammer, Power Hammer
-techguns:chainsaw, Chainsaw
-techguns:nucleardeathray, Nuclear Death Ray
-techguns:gaussrifle, Gauss Rifle
-techguns:guidedmissilelauncher, Guided Missile-Launcher
-techguns:miningdrill, Mining Drill
-techguns:tfg, TFG 10K
-techguns:laserpistol, Laser Pistol
-techguns:stielgranate, Stick Grenade
-techguns:fraggrenade, Frag Grenade
-camping:knife, Swiss Knife
-camping:parts:0, Canvas
-camping:parts:1, Iron Stick
-camping:parts:2, Tent Peg
-camping:parts:3, Pan
-camping:parts:4, Ash
-camping:parts:5, Marshmallows
-camping:parts:6, Marshmallows on a Stick
-camping:marshmallow_stick_cooked, Roasted Marshmallows on a Stick
-camping:bag:0, Pouch
-camping:bag:1, Backpack
-camping:bag:2, Rucksack
-camping:kit:0, Empty Kit
-camping:kit:1, Spit Kit
-camping:kit:2, Grill Kit
-camping:kit:3, Pan Kit
-camping:parts_animal:0, White Fur
-camping:parts_animal:1, Brown Fur
-camping:venison_raw, Raw Venison
-camping:venison_cooked, Venison
-camping:armor_fur_boots, Fur Boots
-camping:armor_fur_chest, Fur Tunic
-camping:armor_fur_helm, Fur Cap
-camping:armor_fur_leg, Fur Pants
-camping:campfire_wood_off, tile.camping:campfire_wood_off.name
-camping:campfire_cook, tile.camping:campfire_cook.name
-camping:lantern:0, Empty Lantern
-camping:lantern:1, Lantern
-camping:logseat, tile.camping:logseat.name
-camping:trap, tile.camping:trap.name
-camping:tent:0, Black Tent
-camping:tent:1, Red Tent
-camping:tent:2, Green Tent
-camping:tent:3, Brown Tent
-camping:tent:4, Blue Tent
-camping:tent:5, Purple Tent
-camping:tent:6, Cyan Tent
-camping:tent:7, Light Gray Tent
-camping:tent:8, Dark Gray Tent
-camping:tent:9, Pink Tent
-camping:tent:10, Lime Tent
-camping:tent:11, Yellow Tent
-camping:tent:12, Light Blue Tent
-camping:tent:13, Magenta Tent
-camping:tent:14, Orange Tent
-camping:tent:15, Tent
-camping:sleeping_bag, tile.camping:sleeping_bag.name
-camping:hemp, tile.camping:hemp.name
-sophisticatedwolves:swdogbowl:0, Dog Bowl
-sophisticatedwolves:swdogbowl:1, Dog Bowl
-sophisticatedwolves:swdogbowl:2, Dog Bowl
-sophisticatedwolves:swdogbowl:3, Dog Bowl
-sophisticatedwolves:swdogbowl:4, Dog Bowl
-sophisticatedwolves:swkennel:0, Kennel
-sophisticatedwolves:swdogtag, Dog Tag
-sophisticatedwolves:swdogtreat, Dog Treat
-sophisticatedwolves:swwhistle, Whistle
-sophisticatedwolves:swpetcarrier, Pet Carrier
-sophisticatedwolves:swdogegg:0, Spawn Sophisticated Wolf - Gray
-sophisticatedwolves:swdogegg:1, Spawn Sophisticated Wolf - Forest
-sophisticatedwolves:swdogegg:2, Spawn Sophisticated Wolf - Black
-sophisticatedwolves:swdogegg:3, Spawn Sophisticated Wolf - Brown
+ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
+ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
+ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
+ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
+ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
+ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
+ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
+ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
+ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
+ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
+ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
+ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
+ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
+ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
+ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
+ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
+ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
+ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 spiceoflife:bookfoodjournal, Food Journal
 spiceoflife:lunchbox, Lunch Box
 spiceoflife:lunchbag, Lunch Bag
