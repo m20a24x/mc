@@ -4,7 +4,7 @@ mouseSensitivity:0.42957747
 fov:0.0
 gamma:0.0
 saturation:0.0
-renderDistance:8
+renderDistance:16
 guiScale:3
 particles:0
 bobView:true
@@ -108,13 +108,6 @@ key_ir_keys.dead_mans_switch:55
 key_ir_keys.start_stop_engine:78
 key_ir_keys.bell:74
 key_ir_keys.config:181
-key_tickratechanger.keybinding.5:0
-key_tickratechanger.keybinding.10:0
-key_tickratechanger.keybinding.15:0
-key_tickratechanger.keybinding.20:0
-key_tickratechanger.keybinding.40:0
-key_tickratechanger.keybinding.60:0
-key_tickratechanger.keybinding.100:0
 key_key.death_history:22
 key_Galaxy Map:50
 key_Open Spaceship Inventory:33
@@ -137,8 +130,8 @@ key_key.jei.previousPage:201
 key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
-key_key.reelIn:75
-key_key.reelOut:77
+key_key.reelIn:203
+key_key.reelOut:205
 key_key.freelook.desc:56
 key_key.toggle_focus.desc:0
 key_key.backpacks.permission:0
