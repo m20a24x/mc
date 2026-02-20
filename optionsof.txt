@@ -3,7 +3,7 @@ ofLimitFramerateFine:0
 ofFogType:2
 ofFogStart:0.2
 ofMipmapLevel:4
-ofMipmapLinear:true
+ofMipmapType:3
 ofLoadFar:true
 ofPreloadedChunks:8
 ofOcclusionFancy:true
@@ -28,6 +28,7 @@ ofAnimatedSmoke:true
 ofVoidParticles:true
 ofWaterParticles:true
 ofPortalParticles:true
+ofPotionParticles:true
 ofDrippingWaterLava:true
 ofAnimatedTerrain:true
 ofAnimatedTextures:true
@@ -60,4 +61,4 @@ ofCustomSky:true
 ofShowCapes:true
 ofNaturalTextures:true
 ofLazyChunkLoading:true
-ofFullscreenMode:1366x768
+ofFullscreenMode:Default
