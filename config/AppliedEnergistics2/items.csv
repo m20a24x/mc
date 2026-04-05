@@ -3999,12 +3999,36 @@ chisel:wool_orange:1, Orange Wool
 chisel:wool_white:0, Wool
 chisel:wool_white:1, Wool
 forge:bucketfilled, %s Bucket
+wumpleutil:repairing_block, Repairing Block
+foodfunk:rotten_food, Rotten Food
+foodfunk:spoiled_milk, Spoiled Milk
+foodfunk:rotted_item, Rotted Item
+foodfunk:biodegradable_item, Biodegradable Item
+foodfunk:esky, Esky
+foodfunk:freezer, Freezer
+foodfunk:icebox, Icebox
+foodfunk:larder, Larder Box
 coroutil:repairing_block, Repairing Block
 coroutil:item_repairing_gel, Repairing Gel
 tenshilib:ignore, Structure Ignore
 tenshilib:structure_piece, Structure Piece
 tenshilib:breakable_barrier, tile.tenshilib:breakable_barrier.name
-wumpleutil:repairing_block, Repairing Block
+immersiverailroading:item_rolling_stock, item.immersiverailroading:item_rolling_stock.name
+immersiverailroading:item_rolling_stock_component, item.immersiverailroading:item_rolling_stock_component.name
+immersiverailroading:item_large_wrench, Large Wrench
+immersiverailroading:item_hook, Coupling Hook
+immersiverailroading:item_augment, item.immersiverailroading:item_augment.name
+immersiverailroading:item_rail, Track Blueprint
+immersiverailroading:item_manual, Immersive Railroading Manual
+immersiverailroading:item_rail_part, Rail Segment
+immersiverailroading:item_plate, item.immersiverailroading:item_plate.name
+immersiverailroading:item_cast_rail, Rail Casting
+immersiverailroading:item_conductor_whistle, Conductor's Whistle
+immersiverailroading:item_paint_brush, Paint Brush
+immersiverailroading:item_golden_spike, Golden Spike
+immersiverailroading:item_radio_control_card, Train Radio-control Card
+immersiverailroading:item_switch_key, Switch Key
+immersiverailroading:item_track_exchanger, Track Exchanger
 chisel:auto_chisel, Auto Chisel
 chisel:chisel_iron, Chisel
 chisel:chisel_diamond, Diamond Chisel
@@ -4717,7 +4741,6 @@ appliedenergistics2:facade:0, Cable Facade - Redstone Ore
 appliedenergistics2:facade:0, Cable Facade - Ice
 appliedenergistics2:facade:0, Cable Facade - Snow
 appliedenergistics2:facade:0, Cable Facade - Clay
-appliedenergistics2:facade:0, Cable Facade - Pumpkin
 appliedenergistics2:facade:0, Cable Facade - Netherrack
 appliedenergistics2:facade:0, Cable Facade - Soul Sand
 appliedenergistics2:facade:0, Cable Facade - Glowstone
@@ -4750,7 +4773,6 @@ appliedenergistics2:facade:0, Cable Facade - Cracked Stone Bricks
 appliedenergistics2:facade:0, Cable Facade - Chiseled Stone Bricks
 appliedenergistics2:facade:0, Cable Facade - Mushroom
 appliedenergistics2:facade:0, Cable Facade - Mushroom
-appliedenergistics2:facade:0, Cable Facade - Melon
 appliedenergistics2:facade:0, Cable Facade - Mycelium
 appliedenergistics2:facade:0, Cable Facade - Nether Brick
 appliedenergistics2:facade:0, Cable Facade - End Stone
@@ -9150,34 +9172,34 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
-tconstruct:pattern:0, Wide Guard Pattern
-tconstruct:pattern:0, Excavator Head Pattern
-tconstruct:pattern:0, Kama Head Pattern
-tconstruct:pattern:0, Cross Guard Pattern
-tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Tool Rod Pattern
-tconstruct:pattern:0, Axe Head Pattern
-tconstruct:pattern:0, Broad Axe Head Pattern
-tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Sharpening Kit Pattern
-tconstruct:pattern:0, Tough Binding Pattern
-tconstruct:pattern:0, Shard Pattern
-tconstruct:pattern:0, Bowlimb Pattern
-tconstruct:pattern:0, Large Plate Pattern
 tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Hammer Head Pattern
-tconstruct:pattern:0, Bowstring Pattern
-tconstruct:pattern:0, Fletching Pattern
-tconstruct:pattern:0, Binding Pattern
-tconstruct:pattern:0, Sword Blade Pattern
-tconstruct:pattern:0, Shovel Head Pattern
-tconstruct:pattern:0, Scythe Head Pattern
-tconstruct:pattern:0, Hand Guard Pattern
-tconstruct:pattern:0, Large Sword Blade Pattern
-tconstruct:pattern:0, Pickaxe Head Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Kama Head Pattern
 tconstruct:pattern:0, Arrow Head Pattern
+tconstruct:pattern:0, Hammer Head Pattern
+tconstruct:pattern:0, Sign Plate Pattern
+tconstruct:pattern:0, Tough Binding Pattern
+tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Sword Blade Pattern
+tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Scythe Head Pattern
+tconstruct:pattern:0, Binding Pattern
+tconstruct:pattern:0, Large Sword Blade Pattern
+tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Excavator Head Pattern
+tconstruct:pattern:0, Knife Blade Pattern
+tconstruct:pattern:0, Broad Axe Head Pattern
+tconstruct:pattern:0, Sharpening Kit Pattern
+tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Cross Guard Pattern
+tconstruct:pattern:0, Bowlimb Pattern
+tconstruct:pattern:0, Wide Guard Pattern
+tconstruct:pattern:0, Tool Rod Pattern
+tconstruct:pattern:0, Hand Guard Pattern
+tconstruct:pattern:0, Large Plate Pattern
+tconstruct:pattern:0, Axe Head Pattern
+tconstruct:pattern:0, Bowstring Pattern
+tconstruct:pattern:0, Arrow Shaft Pattern
 tconstruct:shard:0, Wooden Shard
 tconstruct:shard:0, Stone Shard
 tconstruct:shard:0, Flint Shard
@@ -10169,62 +10191,62 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-tconstruct:cast:0, Wide Guard Cast
-tconstruct:cast:0, Excavator Head Cast
-tconstruct:cast:0, Kama Head Cast
-tconstruct:cast:0, Cross Guard Cast
-tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Tool Rod Cast
-tconstruct:cast:0, Axe Head Cast
-tconstruct:cast:0, Broad Axe Head Cast
-tconstruct:cast:0, Knife Blade Cast
-tconstruct:cast:0, Sharpening Kit Cast
-tconstruct:cast:0, Tough Binding Cast
-tconstruct:cast:0, Shard Cast
-tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Large Plate Cast
 tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Hammer Head Cast
-tconstruct:cast:0, Binding Cast
-tconstruct:cast:0, Sword Blade Cast
-tconstruct:cast:0, Shovel Head Cast
-tconstruct:cast:0, Scythe Head Cast
-tconstruct:cast:0, Hand Guard Cast
-tconstruct:cast:0, Large Sword Blade Cast
-tconstruct:cast:0, Pickaxe Head Cast
-tconstruct:cast:0, Tough Tool Rod Cast
+tconstruct:cast:0, Kama Head Cast
 tconstruct:cast:0, Arrow Head Cast
+tconstruct:cast:0, Hammer Head Cast
+tconstruct:cast:0, Sign Plate Cast
+tconstruct:cast:0, Tough Binding Cast
+tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Sword Blade Cast
+tconstruct:cast:0, Scythe Head Cast
+tconstruct:cast:0, Binding Cast
+tconstruct:cast:0, Large Sword Blade Cast
+tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Excavator Head Cast
+tconstruct:cast:0, Knife Blade Cast
+tconstruct:cast:0, Broad Axe Head Cast
+tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Tough Tool Rod Cast
+tconstruct:cast:0, Cross Guard Cast
+tconstruct:cast:0, Bowlimb Cast
+tconstruct:cast:0, Wide Guard Cast
+tconstruct:cast:0, Tool Rod Cast
+tconstruct:cast:0, Hand Guard Cast
+tconstruct:cast:0, Large Plate Cast
+tconstruct:cast:0, Axe Head Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Wide Guard Clay Cast
-tconstruct:clay_cast:0, Excavator Head Clay Cast
-tconstruct:clay_cast:0, Kama Head Clay Cast
-tconstruct:clay_cast:0, Cross Guard Clay Cast
-tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Tool Rod Clay Cast
-tconstruct:clay_cast:0, Axe Head Clay Cast
-tconstruct:clay_cast:0, Broad Axe Head Clay Cast
-tconstruct:clay_cast:0, Knife Blade Clay Cast
-tconstruct:clay_cast:0, Sharpening Kit Clay Cast
-tconstruct:clay_cast:0, Tough Binding Clay Cast
-tconstruct:clay_cast:0, Shard Clay Cast
-tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Large Plate Clay Cast
 tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Hammer Head Clay Cast
-tconstruct:clay_cast:0, Binding Clay Cast
-tconstruct:clay_cast:0, Sword Blade Clay Cast
-tconstruct:clay_cast:0, Shovel Head Clay Cast
-tconstruct:clay_cast:0, Scythe Head Clay Cast
-tconstruct:clay_cast:0, Hand Guard Clay Cast
-tconstruct:clay_cast:0, Large Sword Blade Clay Cast
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
-tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
+tconstruct:clay_cast:0, Kama Head Clay Cast
 tconstruct:clay_cast:0, Arrow Head Clay Cast
+tconstruct:clay_cast:0, Hammer Head Clay Cast
+tconstruct:clay_cast:0, Sign Plate Clay Cast
+tconstruct:clay_cast:0, Tough Binding Clay Cast
+tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Sword Blade Clay Cast
+tconstruct:clay_cast:0, Scythe Head Clay Cast
+tconstruct:clay_cast:0, Binding Clay Cast
+tconstruct:clay_cast:0, Large Sword Blade Clay Cast
+tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Excavator Head Clay Cast
+tconstruct:clay_cast:0, Knife Blade Clay Cast
+tconstruct:clay_cast:0, Broad Axe Head Clay Cast
+tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
+tconstruct:clay_cast:0, Cross Guard Clay Cast
+tconstruct:clay_cast:0, Bowlimb Clay Cast
+tconstruct:clay_cast:0, Wide Guard Clay Cast
+tconstruct:clay_cast:0, Tool Rod Clay Cast
+tconstruct:clay_cast:0, Hand Guard Clay Cast
+tconstruct:clay_cast:0, Large Plate Clay Cast
+tconstruct:clay_cast:0, Axe Head Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -10634,6 +10656,24 @@ immersivepetroleum:upgrades:2, Expanded Fuel Tank
 immersivepetroleum:upgrades:3, Maneuvering Rudders
 immersivepetroleum:upgrades:4, Emergency Paddles
 immersivepetroleum:oil_can, Lubricant Can
+ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
+ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
+ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
+ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
+ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
+ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
+ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
+ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
+ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
+ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
+ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
+ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
+ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
+ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
+ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
+ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
+ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
+ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 ironchest:iron_chest:0, Iron Chest
 ironchest:iron_chest:1, Gold Chest
 ironchest:iron_chest:2, Diamond Chest
@@ -10754,27 +10794,50 @@ ironchest:iron_shulker_box_black:3, Black Copper Shulker Box
 ironchest:iron_shulker_box_black:4, Black Silver Shulker Box
 ironchest:iron_shulker_box_black:5, Black Crystal Shulker Box
 ironchest:iron_shulker_box_black:6, Black Obsidian Shulker Box
-ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
-ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
-ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
-ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
-ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
-ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
-ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
-ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
-ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
-ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
-ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
-ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
-ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
-ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
-ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
-ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
-ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
-ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 spiceoflife:bookfoodjournal, Food Journal
 spiceoflife:lunchbox, Lunch Box
 spiceoflife:lunchbag, Lunch Bag
+tektopia:iron_hammer, item.iron_hammer.name
+tektopia:beer, Beer
+tektopia:heart, Heart
+tektopia:rancher_hat, Rancher Hat
+tektopia:prof_nitwit, Nitwit
+tektopia:prof_teacher, Teacher
+tektopia:prof_druid, Druid
+tektopia:prof_butcher, Butcher
+tektopia:prof_captain, Captain
+tektopia:prof_chef, Chef
+tektopia:prof_blacksmith, Blacksmith
+tektopia:prof_lumberjack, Lumberjack
+tektopia:prof_cleric, Cleric
+tektopia:prof_bard, Bard
+tektopia:prof_guard, Guard
+tektopia:prof_nomad, Nomad
+tektopia:prof_rancher, Rancher
+tektopia:prof_miner, Miner
+tektopia:prof_child, Child
+tektopia:prof_enchanter, Enchanter
+tektopia:prof_farmer, Farmer
+tektopia:structure_tavern, Tavern
+tektopia:structure_townhall, Town Hall
+tektopia:structure_school, School
+tektopia:structure_storage, Storage
+tektopia:structure_sheeppen, Sheep Pen
+tektopia:structure_mineshaft, Mineshaft
+tektopia:structure_pigpen, Pig Pen
+tektopia:structure_home2, Home 2
+tektopia:structure_home4, Home 4
+tektopia:structure_home6, Home 6
+tektopia:structure_cowpen, Cow Pen
+tektopia:structure_library, Library
+tektopia:structure_chickencoop, Chicken Coop
+tektopia:structure_butcher, Butcher
+tektopia:structure_blacksmith, Smithy
+tektopia:structure_guard_post, Guard Post
+tektopia:structure_merchant_stall, Merchant Stall
+tektopia:structure_kitchen, Kitchen
+tektopia:structure_barracks, Barracks
+tektopia:chair, Chair
 tinyinv:fake_item, Fake Item
 ichunutil:compact_porkchop, Compact Raw Porkchop
 backpacks16840:unknown_item:0, Unknown Item
