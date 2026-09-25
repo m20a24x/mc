@@ -1,0 +1,280 @@
+{
+  "populate": {
+    "ender_amethyst_end_outer": {
+      "distribution": "gaussian",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "biomesoplenty:gem_ore",
+          "metadata": 0
+        },
+        "material": "minecraft:end_stone",
+        "cluster-size": 5
+      },
+      "cluster-count": 6,
+      "chunk-chance": 1000,
+      "center-height": 40,
+      "spread": 25,
+      "biome": {
+        "restriction": "whitelist",
+        "value": []
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [1]
+      },
+      "retrogen": false
+    },
+
+    "ruby_arid_metamorphic_vein": {
+      "distribution": "fractal",
+      "generator": {
+        "type": "large-vein",
+        "block": {
+          "name": "biomesoplenty:gem_ore",
+          "metadata": 1
+        },
+        "material": "minecraft:stone",
+        "cluster-size": 6
+      },
+      "cluster-count": 3,
+      "chunk-chance": 1000,
+      "min-height": 8,
+      "max-height": 45,
+      "vein-height": 3,
+      "vein-diameter": 4,
+      "vertical-density": 4,
+      "horizontal-density": 2,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          { "type": "dictionary", "entry": ["MESA", "SAVANNA", "ARID"] },
+          "minecraft:desert",
+          "minecraft:desert_hills",
+          "minecraft:mutated_desert",
+          "minecraft:mesa",
+          "minecraft:mesa_rock",
+          "minecraft:mesa_clear_rock"
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      },
+      "retrogen": false
+    },
+
+    "peridot_plains_nodule": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "biomesoplenty:gem_ore",
+          "metadata": 2
+        },
+        "material": "minecraft:stone",
+        "cluster-size": 4
+      },
+      "cluster-count": 5,
+      "chunk-chance": 1000,
+      "min-height": 12,
+      "max-height": 40,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          { "type": "dictionary", "entry": ["PLAINS", "GRASSLAND"] },
+          "minecraft:plains",
+          "minecraft:mutated_plains",
+          "minecraft:savanna",
+          "minecraft:savanna_plateau"
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      },
+      "retrogen": false
+    },
+
+    "topaz_lush_pegmatite_geode": {
+      "distribution": "gaussian",
+      "generator": {
+        "type": "geode",
+        "block": {
+          "name": "biomesoplenty:gem_ore",
+          "metadata": 3
+        },
+        "material": "minecraft:stone",
+        "cluster-size": 12
+      },
+      "cluster-count": 1,
+      "chunk-chance": 1000,
+      "center-height": 28,
+      "spread": 18,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          { "type": "dictionary", "entry": ["LUSH", "JUNGLE", "FOREST"] },
+          "minecraft:jungle",
+          "minecraft:jungle_hills",
+          "minecraft:mutated_jungle",
+          "minecraft:forest",
+          "minecraft:birch_forest",
+          "minecraft:roofed_forest"
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      },
+      "retrogen": false
+    },
+
+    "tanzanite_cold_metamorphic_vein": {
+      "distribution": "fractal",
+      "generator": {
+        "type": "large-vein",
+        "block": {
+          "name": "biomesoplenty:gem_ore",
+          "metadata": 4
+        },
+        "material": "minecraft:stone",
+        "cluster-size": 5
+      },
+      "cluster-count": 3,
+      "chunk-chance": 1000,
+      "min-height": 5,
+      "max-height": 35,
+      "vein-height": 2,
+      "vein-diameter": 3,
+      "vertical-density": 3,
+      "horizontal-density": 2,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          { "type": "dictionary", "entry": ["COLD", "SNOWY", "CONIFEROUS", "TAIGA"] },
+          "minecraft:taiga",
+          "minecraft:taiga_hills",
+          "minecraft:mutated_taiga",
+          "minecraft:cold_taiga",
+          "minecraft:cold_taiga_hills",
+          "minecraft:ice_plains",
+          "minecraft:ice_mountains"
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      },
+      "retrogen": false
+    },
+
+    "malachite_swamp_copper_oxidation": {
+      "distribution": "surface",
+      "generator": {
+        "type": "plate",
+        "block": {
+          "name": "biomesoplenty:gem_ore",
+          "metadata": 5
+        },
+        "material": [
+          "minecraft:stone",
+          "minecraft:dirt",
+          "minecraft:grass",
+          "minecraft:clay"
+        ],
+        "radius": 5,
+        "height": 2
+      },
+      "cluster-count": 4,
+      "chunk-chance": 1000,
+      "follow-terrain": true,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          { "type": "dictionary", "entry": ["SWAMP", "COLD", "MOUNTAIN"] },
+          "minecraft:swampland",
+          "minecraft:mutated_swampland",
+          "minecraft:ice_mountains"
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      },
+      "retrogen": false
+    },
+
+    "sapphire_ocean_placer": {
+      "distribution": "underwater",
+      "generator": {
+        "type": "sparse-cluster",
+        "block": {
+          "name": "biomesoplenty:gem_ore",
+          "metadata": 6
+        },
+        "material": [
+          "minecraft:gravel",
+          "minecraft:sand",
+          "minecraft:clay"
+        ],
+        "cluster-size": 4,
+        "sparse-radius": 5,
+        "sparse-clusters": 6
+      },
+      "cluster-count": 3,
+      "chunk-chance": 1000,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          { "type": "dictionary", "entry": ["OCEAN", "BEACH", "RIVER"] },
+          "minecraft:ocean",
+          "minecraft:deep_ocean",
+          "minecraft:frozen_ocean",
+          "minecraft:beach"
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      },
+      "retrogen": false
+    },
+
+    "amber_forest_sedimentary": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "biomesoplenty:gem_ore",
+          "metadata": 7
+        },
+        "material": [
+          "minecraft:stone",
+          "minecraft:dirt",
+          "minecraft:sandstone"
+        ],
+        "cluster-size": 3
+      },
+      "cluster-count": 6,
+      "chunk-chance": 1000,
+      "min-height": 25,
+      "max-height": 60,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          { "type": "dictionary", "entry": ["FOREST", "LUSH"] },
+          "minecraft:forest",
+          "minecraft:birch_forest",
+          "minecraft:roofed_forest",
+          "minecraft:mutated_forest"
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [0]
+      },
+      "retrogen": false
+    }
+  }
+}

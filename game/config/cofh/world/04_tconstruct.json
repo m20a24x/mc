@@ -1,0 +1,122 @@
+{
+  "populate": {
+    "cobalt_nether_vein": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "large-vein",
+        "block": {
+          "name": "tconstruct:ore",
+          "properties": {
+            "type": "cobalt"
+          }
+        },
+        "material": "minecraft:netherrack",
+        "cluster-size": 14
+      },
+      "cluster-count": 3,
+      "chunk-chance": 1000,
+      "min-height": 14,
+      "max-height": 60,
+      "biome": {
+        "restriction": "whitelist",
+        "value": []
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1
+        ]
+      },
+      "retrogen": false
+    },
+    "cobalt_nether_deep": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "tconstruct:ore",
+          "properties": {
+            "type": "cobalt"
+          }
+        },
+        "material": "minecraft:netherrack",
+        "cluster-size": 8
+      },
+      "cluster-count": 5,
+      "chunk-chance": 1000,
+      "min-height": 5,
+      "max-height": 30,
+      "biome": {
+        "restriction": "whitelist",
+        "value": []
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1
+        ]
+      },
+      "retrogen": false
+    },
+    "ardite_nether_vein": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "large-vein",
+        "block": {
+          "name": "tconstruct:ore",
+          "properties": {
+            "type": "ardite"
+          }
+        },
+        "material": "minecraft:netherrack",
+        "cluster-size": 12
+      },
+      "cluster-count": 3,
+      "chunk-chance": 1000,
+      "min-height": 40,
+      "max-height": 90,
+      "biome": {
+        "restriction": "whitelist",
+        "value": []
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1
+        ]
+      },
+      "retrogen": false
+    },
+    "ardite_nether_scatter": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "sparse-cluster",
+        "block": {
+          "name": "tconstruct:ore",
+          "properties": {
+            "type": "ardite"
+          }
+        },
+        "material": "minecraft:netherrack",
+        "cluster-size": 3,
+        "sparse-radius": 4,
+        "sparse-clusters": 7
+      },
+      "cluster-count": 1,
+      "chunk-chance": 1000,
+      "min-height": 55,
+      "max-height": 110,
+      "biome": {
+        "restriction": "whitelist",
+        "value": []
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1
+        ]
+      },
+      "retrogen": false
+    }
+  }
+}

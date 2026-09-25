@@ -1,0 +1,236 @@
+{
+  "populate": {
+    "ic2_copper_porphyry": {
+      "distribution": "fractal",
+      "generator": {
+        "type": "large-vein",
+        "block": {
+          "name": "ic2:resource",
+          "properties": {
+            "type": "copper_ore"
+          }
+        },
+        "material": "minecraft:stone",
+        "cluster-size": 20
+      },
+      "cluster-count": 5,
+      "chunk-chance": 1000,
+      "min-height": 10,
+      "max-height": 70,
+      "vein-height": 5,
+      "vein-diameter": 8,
+      "vertical-density": 6,
+      "horizontal-density": 4,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "MOUNTAIN",
+              "MESA"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "ic2_tin_cassiterite_vein": {
+      "distribution": "fractal",
+      "generator": {
+        "type": "large-vein",
+        "block": {
+          "name": "ic2:resource",
+          "properties": {
+            "type": "tin_ore"
+          }
+        },
+        "material": "minecraft:stone",
+        "cluster-size": 12
+      },
+      "cluster-count": 4,
+      "chunk-chance": 1000,
+      "min-height": 10,
+      "max-height": 55,
+      "vein-height": 4,
+      "vein-diameter": 5,
+      "vertical-density": 4,
+      "horizontal-density": 2,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "MOUNTAIN"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "ic2_tin_alluvial_placer": {
+      "distribution": "surface",
+      "generator": {
+        "type": "sparse-cluster",
+        "block": {
+          "name": "ic2:resource",
+          "properties": {
+            "type": "tin_ore"
+          }
+        },
+        "material": [
+          "minecraft:gravel",
+          "minecraft:sand",
+          "minecraft:dirt"
+        ],
+        "cluster-size": 3,
+        "sparse-radius": 5,
+        "sparse-clusters": 6
+      },
+      "cluster-count": 1,
+      "chunk-chance": 1000,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "RIVER",
+              "BEACH"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "ic2_lead_galena_vein": {
+      "distribution": "gaussian",
+      "generator": {
+        "type": "large-vein",
+        "block": {
+          "name": "ic2:resource",
+          "properties": {
+            "type": "lead_ore"
+          }
+        },
+        "material": "minecraft:stone",
+        "cluster-size": 10
+      },
+      "cluster-count": 4,
+      "chunk-chance": 1000,
+      "center-height": 24,
+      "spread": 14,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "MOUNTAIN",
+              "MESA"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "ic2_uranium_sandstone": {
+      "distribution": "gaussian",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "ic2:resource",
+          "properties": {
+            "type": "uranium_ore"
+          }
+        },
+        "material": [
+          "minecraft:stone",
+          "minecraft:sandstone"
+        ],
+        "cluster-size": 4
+      },
+      "cluster-count": 1,
+      "chunk-chance": 1000,
+      "center-height": 14,
+      "spread": 10,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "SANDY"
+            ]
+          },
+          "minecraft:ice_mountains"
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "ic2_uranium_unconformity": {
+      "distribution": "gaussian",
+      "generator": {
+        "type": "sparse-cluster",
+        "block": {
+          "name": "ic2:resource",
+          "properties": {
+            "type": "uranium_ore"
+          }
+        },
+        "material": "minecraft:stone",
+        "cluster-size": 6,
+        "sparse-radius": 3,
+        "sparse-clusters": 3
+      },
+      "cluster-count": 1,
+      "chunk-chance": 1000,
+      "center-height": 8,
+      "spread": 5,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          "minecraft:ice_mountains"
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    }
+  }
+}
