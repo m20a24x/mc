@@ -1,0 +1,224 @@
+{
+  "populate": {
+    "vis_crystals_magical_biome": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": [
+          {
+            "name": "thaumcraft:crystal_aer",
+            "weight": 25
+          },
+          {
+            "name": "thaumcraft:crystal_terra",
+            "weight": 25
+          },
+          {
+            "name": "thaumcraft:crystal_aqua",
+            "weight": 18
+          },
+          {
+            "name": "thaumcraft:crystal_ignis",
+            "weight": 18
+          },
+          {
+            "name": "thaumcraft:crystal_ordo",
+            "weight": 7
+          },
+          {
+            "name": "thaumcraft:crystal_perditio",
+            "weight": 7
+          }
+        ],
+        "material": "minecraft:stone",
+        "cluster-size": 3
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 5,
+      "max-height": 45,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "MAGICAL"
+            ]
+          }
+        ]
+      }
+    },
+    "vis_crystals_mountain_magical": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": [
+          {
+            "name": "thaumcraft:crystal_aer",
+            "weight": 25
+          },
+          {
+            "name": "thaumcraft:crystal_terra",
+            "weight": 25
+          },
+          {
+            "name": "thaumcraft:crystal_aqua",
+            "weight": 18
+          },
+          {
+            "name": "thaumcraft:crystal_ignis",
+            "weight": 18
+          },
+          {
+            "name": "thaumcraft:crystal_ordo",
+            "weight": 7
+          },
+          {
+            "name": "thaumcraft:crystal_perditio",
+            "weight": 7
+          }
+        ],
+        "material": "minecraft:stone",
+        "cluster-size": 3
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 4,
+      "min-height": 30,
+      "max-height": 85,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "MAGICAL"
+            ]
+          }
+        ]
+      }
+    },
+    "cinnabar_volcanic_vent": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "thaumcraft:ore_cinnabar"
+        },
+        "material": "minecraft:stone",
+        "cluster-size": 4
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 6,
+      "min-height": 10,
+      "max-height": 50,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1
+        ]
+      }
+    },
+    "cinnabar_surface_sinter": {
+      "distribution": "surface",
+      "generator": {
+        "type": "plate",
+        "block": {
+          "name": "thaumcraft:ore_cinnabar"
+        },
+        "material": "minecraft:netherrack",
+        "radius": 3,
+        "height": 1
+      },
+      "cluster-count": 1,
+      "chunk-chance": 1000,
+      "follow-terrain": true,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1
+        ]
+      }
+    },
+    "amber_fossil_forest": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "thaumcraft:ore_amber"
+        },
+        "material": "minecraft:stone",
+        "cluster-size": 3
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 40,
+      "max-height": 75,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "FOREST"
+            ]
+          }
+        ]
+      }
+    },
+    "amber_fossil_surface": {
+      "distribution": "surface",
+      "generator": {
+        "type": "plate",
+        "block": {
+          "name": "thaumcraft:ore_amber"
+        },
+        "material": "minecraft:stone",
+        "radius": 4,
+        "height": 2
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 2,
+      "follow-terrain": true
+    },
+    "ore_quartz_underground": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "thaumcraft:ore_quartz"
+        },
+        "material": "minecraft:stone",
+        "cluster-size": 1
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 15,
+      "min-height": 5,
+      "max-height": 60,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      }
+    }
+  }
+}

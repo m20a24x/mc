@@ -1,0 +1,704 @@
+{
+  "populate": {
+    "coal_upper_seam": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "plate",
+        "block": "minecraft:coal_ore",
+        "material": "minecraft:stone",
+        "radius": 12
+      },
+      "cluster-count": 12,
+      "chunk-chance": 1000,
+      "min-height": 48,
+      "max-height": 96,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "SWAMP",
+              "FOREST",
+              "JUNGLE",
+              "CONIFEROUS"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "coal_lower_seam": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "plate",
+        "block": "minecraft:coal_ore",
+        "material": "minecraft:stone",
+        "radius": 15
+      },
+      "cluster-count": 10,
+      "chunk-chance": 1000,
+      "min-height": 5,
+      "max-height": 52,
+      "biome": {
+        "restriction": "whitelist",
+        "value": []
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "coal_surface_outcrop": {
+      "distribution": "surface",
+      "generator": {
+        "type": "decoration",
+        "block": "minecraft:coal_ore",
+        "material": [
+          "minecraft:grass",
+          "minecraft:dirt",
+          "minecraft:stone"
+        ],
+        "cluster-size": 5
+      },
+      "cluster-count": 3,
+      "chunk-chance": 1000,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "SWAMP",
+              "MOUNTAIN",
+              "PLAINS"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "iron_banded_formation": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "large-vein",
+        "block": "minecraft:iron_ore",
+        "material": "minecraft:stone",
+        "cluster-size": 36
+      },
+      "cluster-count": 4,
+      "chunk-chance": 1000,
+      "min-height": 5,
+      "max-height": 56,
+      "biome": {
+        "restriction": "whitelist",
+        "value": []
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "iron_mountain_vein": {
+      "distribution": "gaussian",
+      "generator": {
+        "type": "large-vein",
+        "block": "minecraft:iron_ore",
+        "material": "minecraft:stone",
+        "cluster-size": 24
+      },
+      "cluster-count": 3,
+      "chunk-chance": 1000,
+      "center-height": 48,
+      "spread": 24,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          "minecraft:extreme_hills",
+          "minecraft:extreme_hills_with_trees",
+          "minecraft:smaller_extreme_hills",
+          "minecraft:mutated_extreme_hills",
+          "minecraft:mutated_extreme_hills_with_trees"
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "iron_bog_deposit": {
+      "distribution": "surface",
+      "generator": {
+        "type": "plate",
+        "block": "minecraft:iron_ore",
+        "material": [
+          "minecraft:dirt",
+          "minecraft:grass",
+          "minecraft:clay"
+        ],
+        "radius": 8
+      },
+      "cluster-count": 2,
+      "chunk-chance": 1000,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "SWAMP"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "gold_quartz_vein": {
+      "distribution": "fractal",
+      "generator": {
+        "type": "large-vein",
+        "block": "minecraft:gold_ore",
+        "material": "minecraft:stone",
+        "cluster-size": 10
+      },
+      "cluster-count": 5,
+      "chunk-chance": 1000,
+      "min-height": 5,
+      "max-height": 48,
+      "vein-height": 3,
+      "vein-diameter": 5,
+      "vertical-density": 4,
+      "horizontal-density": 2,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          "minecraft:extreme_hills",
+          "minecraft:extreme_hills_with_trees",
+          "minecraft:smaller_extreme_hills",
+          "minecraft:mutated_extreme_hills",
+          "minecraft:mutated_extreme_hills_with_trees",
+          "minecraft:mesa",
+          "minecraft:mesa_rock",
+          "minecraft:mesa_clear_rock",
+          "minecraft:mutated_mesa",
+          "minecraft:mutated_mesa_rock",
+          "minecraft:mutated_mesa_clear_rock"
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "gold_placer_river": {
+      "distribution": "surface",
+      "generator": {
+        "type": "sparse-cluster",
+        "block": "minecraft:gold_ore",
+        "material": [
+          "minecraft:gravel",
+          "minecraft:sand",
+          "minecraft:dirt"
+        ],
+        "cluster-size": 3,
+        "sparse-radius": 4,
+        "sparse-clusters": 6
+      },
+      "cluster-count": 1,
+      "chunk-chance": 1000,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "RIVER"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "gold_deep_hydrothermal": {
+      "distribution": "gaussian",
+      "generator": {
+        "type": "cluster",
+        "block": "minecraft:gold_ore",
+        "material": "minecraft:stone",
+        "cluster-size": 6
+      },
+      "cluster-count": 2,
+      "chunk-chance": 1000,
+      "center-height": 18,
+      "spread": 10,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "MOUNTAIN",
+              "MESA"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "diamond_kimberlite_pipe": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "sparse-cluster",
+        "block": "minecraft:diamond_ore",
+        "material": "minecraft:stone",
+        "cluster-size": 5,
+        "sparse-radius": 3,
+        "sparse-clusters": 4
+      },
+      "cluster-count": 1,
+      "chunk-chance": 1000,
+      "min-height": 2,
+      "max-height": 14,
+      "biome": {
+        "restriction": "whitelist",
+        "value": []
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "diamond_placer_river": {
+      "distribution": "surface",
+      "generator": {
+        "type": "decoration",
+        "block": "minecraft:diamond_ore",
+        "material": [
+          "minecraft:gravel"
+        ],
+        "cluster-size": 1
+      },
+      "cluster-count": 1,
+      "chunk-chance": 1000,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "RIVER"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "emerald_hydrothermal_vein": {
+      "distribution": "fractal",
+      "generator": {
+        "type": "large-vein",
+        "block": "minecraft:emerald_ore",
+        "material": "minecraft:stone",
+        "cluster-size": 4
+      },
+      "cluster-count": 3,
+      "chunk-chance": 1000,
+      "min-height": 10,
+      "max-height": 50,
+      "vein-height": 3,
+      "vein-diameter": 4,
+      "vertical-density": 3,
+      "horizontal-density": 2,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          "minecraft:extreme_hills",
+          "minecraft:extreme_hills_with_trees",
+          "minecraft:smaller_extreme_hills",
+          "minecraft:mutated_extreme_hills",
+          "minecraft:mutated_extreme_hills_with_trees"
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "lapis_metamorphic_contact": {
+      "distribution": "gaussian",
+      "generator": {
+        "type": "cluster",
+        "block": "minecraft:lapis_ore",
+        "material": "minecraft:stone",
+        "cluster-size": 7
+      },
+      "cluster-count": 3,
+      "chunk-chance": 1000,
+      "center-height": 16,
+      "spread": 10,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "MOUNTAIN"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "lapis_mesa_canyon": {
+      "distribution": "surface",
+      "generator": {
+        "type": "cluster",
+        "block": "minecraft:lapis_ore",
+        "material": [
+          "minecraft:stone",
+          "minecraft:hardened_clay",
+          "minecraft:stained_hardened_clay"
+        ],
+        "cluster-size": 5
+      },
+      "cluster-count": 2,
+      "chunk-chance": 1000,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          "minecraft:mesa",
+          "minecraft:mesa_rock",
+          "minecraft:mesa_clear_rock",
+          "minecraft:mutated_mesa",
+          "minecraft:mutated_mesa_rock",
+          "minecraft:mutated_mesa_clear_rock"
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "redstone_porphyry_deep": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "large-vein",
+        "block": "minecraft:redstone_ore",
+        "material": "minecraft:stone",
+        "cluster-size": 20
+      },
+      "cluster-count": 5,
+      "chunk-chance": 1000,
+      "min-height": 2,
+      "max-height": 20,
+      "biome": {
+        "restriction": "whitelist",
+        "value": []
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "redstone_mountain_porphyry": {
+      "distribution": "gaussian",
+      "generator": {
+        "type": "large-vein",
+        "block": "minecraft:redstone_ore",
+        "material": "minecraft:stone",
+        "cluster-size": 14
+      },
+      "cluster-count": 3,
+      "chunk-chance": 1000,
+      "center-height": 30,
+      "spread": 18,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "MOUNTAIN",
+              "MESA"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "nether_quartz_cluster": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "minecraft:quartz_ore",
+        "material": "minecraft:netherrack",
+        "cluster-size": 14
+      },
+      "cluster-count": 8,
+      "chunk-chance": 1000,
+      "min-height": 10,
+      "max-height": 120,
+      "biome": {
+        "restriction": "whitelist",
+        "value": []
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1
+        ]
+      },
+      "retrogen": false
+    },
+    "nether_quartz_geode": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "geode",
+        "block": "minecraft:quartz_ore",
+        "material": "minecraft:netherrack",
+        "cluster-size": 20
+      },
+      "cluster-count": 1,
+      "chunk-chance": 1000,
+      "min-height": 20,
+      "max-height": 100,
+      "biome": {
+        "restriction": "whitelist",
+        "value": []
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1
+        ]
+      },
+      "retrogen": false
+    },
+    "granite_batholith": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "large-vein",
+        "block": "minecraft:stone",
+        "material": "minecraft:stone",
+        "cluster-size": 60
+      },
+      "cluster-count": 2,
+      "chunk-chance": 1000,
+      "min-height": 10,
+      "max-height": 80,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "MOUNTAIN"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "diorite_intrusion": {
+      "distribution": "gaussian",
+      "generator": {
+        "type": "cluster",
+        "block": "minecraft:stone",
+        "material": "minecraft:stone",
+        "cluster-size": 40
+      },
+      "cluster-count": 3,
+      "chunk-chance": 1000,
+      "center-height": 40,
+      "spread": 30,
+      "biome": {
+        "restriction": "whitelist",
+        "value": []
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "andesite_volcano": {
+      "distribution": "surface",
+      "generator": {
+        "type": "plate",
+        "block": "minecraft:stone",
+        "material": [
+          "minecraft:stone",
+          "minecraft:dirt",
+          "minecraft:grass"
+        ],
+        "radius": 17
+      },
+      "cluster-count": 2,
+      "chunk-chance": 1000,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "MOUNTAIN"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "gravel_river_terrace": {
+      "distribution": "surface",
+      "generator": {
+        "type": "plate",
+        "block": "minecraft:gravel",
+        "material": [
+          "minecraft:dirt",
+          "minecraft:grass",
+          "minecraft:sand"
+        ],
+        "radius": 12
+      },
+      "cluster-count": 2,
+      "chunk-chance": 1000,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "RIVER"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "gravel_ocean_shelf": {
+      "distribution": "underwater",
+      "generator": {
+        "type": "plate",
+        "block": "minecraft:gravel",
+        "material": [
+          "minecraft:dirt",
+          "minecraft:sand",
+          "minecraft:clay"
+        ],
+        "radius": 14
+      },
+      "cluster-count": 3,
+      "chunk-chance": 1000,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "OCEAN"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    }
+  }
+}

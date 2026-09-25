@@ -1,0 +1,2309 @@
+{
+  "populate": {
+    "lead_overworld": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": "extraplanets:ore_lead",
+        "material": "minecraft:stone",
+        "cluster-size": 6
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 8,
+      "min-height": 10,
+      "max-height": 40,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      }
+    },
+    "mercury_iron_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:mercury",
+          "metadata": 3
+        },
+        "material": {
+          "name": "extraplanets:mercury",
+          "metadata": 2
+        },
+        "cluster-size": 8
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 6,
+      "min-height": 0,
+      "max-height": 50,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -30
+        ]
+      }
+    },
+    "mercury_tin_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:mercury",
+          "metadata": 4
+        },
+        "material": {
+          "name": "extraplanets:mercury",
+          "metadata": 2
+        },
+        "cluster-size": 7
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 20,
+      "max-height": 60,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -30
+        ]
+      }
+    },
+    "mercury_copper_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:mercury",
+          "metadata": 5
+        },
+        "material": {
+          "name": "extraplanets:mercury",
+          "metadata": 2
+        },
+        "cluster-size": 8
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 6,
+      "min-height": 10,
+      "max-height": 50,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -30
+        ]
+      }
+    },
+    "mercury_mercury_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:mercury",
+          "metadata": 6
+        },
+        "material": {
+          "name": "extraplanets:mercury",
+          "metadata": 2
+        },
+        "cluster-size": 5
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 4,
+      "min-height": 5,
+      "max-height": 35,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -30
+        ]
+      }
+    },
+    "mercury_cobalt_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:mercury",
+          "metadata": 7
+        },
+        "material": {
+          "name": "extraplanets:mercury",
+          "metadata": 2
+        },
+        "cluster-size": 4
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 3,
+      "min-height": 0,
+      "max-height": 25,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -30
+        ]
+      }
+    },
+    "mercury_iron_surface_nodules": {
+      "distribution": "surface",
+      "generator": {
+        "type": "sparse-cluster",
+        "block": {
+          "name": "extraplanets:mercury",
+          "metadata": 3
+        },
+        "material": [
+          {
+            "name": "extraplanets:mercury",
+            "metadata": 2
+          },
+          {
+            "name": "extraplanets:mercury",
+            "metadata": 1
+          }
+        ],
+        "cluster-size": 3
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 3,
+      "follow-terrain": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -30
+        ]
+      }
+    },
+    "mercury_tin_surface_nodules": {
+      "distribution": "surface",
+      "generator": {
+        "type": "sparse-cluster",
+        "block": {
+          "name": "extraplanets:mercury",
+          "metadata": 4
+        },
+        "material": [
+          {
+            "name": "extraplanets:mercury",
+            "metadata": 2
+          },
+          {
+            "name": "extraplanets:mercury",
+            "metadata": 1
+          }
+        ],
+        "cluster-size": 3
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 3,
+      "follow-terrain": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -30
+        ]
+      }
+    },
+    "mercury_copper_surface_nodules": {
+      "distribution": "surface",
+      "generator": {
+        "type": "sparse-cluster",
+        "block": {
+          "name": "extraplanets:mercury",
+          "metadata": 5
+        },
+        "material": [
+          {
+            "name": "extraplanets:mercury",
+            "metadata": 2
+          },
+          {
+            "name": "extraplanets:mercury",
+            "metadata": 1
+          }
+        ],
+        "cluster-size": 3
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 3,
+      "follow-terrain": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -30
+        ]
+      }
+    },
+    "ceres_iron_ore": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:ceres",
+          "metadata": 3
+        },
+        "material": {
+          "name": "extraplanets:ceres",
+          "metadata": 2
+        },
+        "cluster-size": 8
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 7,
+      "min-height": 0,
+      "max-height": 60,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -31
+        ]
+      }
+    },
+    "ceres_tin_ore": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:ceres",
+          "metadata": 4
+        },
+        "material": {
+          "name": "extraplanets:ceres",
+          "metadata": 2
+        },
+        "cluster-size": 6
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 10,
+      "max-height": 50,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -31
+        ]
+      }
+    },
+    "ceres_copper_ore": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:ceres",
+          "metadata": 5
+        },
+        "material": {
+          "name": "extraplanets:ceres",
+          "metadata": 2
+        },
+        "cluster-size": 7
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 5,
+      "max-height": 45,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -31
+        ]
+      }
+    },
+    "ceres_uranium_ore": {
+      "distribution": "gaussian",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:ceres",
+          "metadata": 6
+        },
+        "material": {
+          "name": "extraplanets:ceres",
+          "metadata": 2
+        },
+        "cluster-size": 3
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 1,
+      "center-height": 43,
+      "spread": 15,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -31
+        ]
+      }
+    },
+    "jupiter_iron_ore": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:jupiter",
+          "metadata": 3
+        },
+        "material": {
+          "name": "extraplanets:jupiter",
+          "metadata": 2
+        },
+        "cluster-size": 8
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 12,
+      "min-height": 0,
+      "max-height": 64,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -32
+        ]
+      }
+    },
+    "jupiter_tin_ore": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:jupiter",
+          "metadata": 4
+        },
+        "material": {
+          "name": "extraplanets:jupiter",
+          "metadata": 2
+        },
+        "cluster-size": 7
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 10,
+      "min-height": 0,
+      "max-height": 40,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -32
+        ]
+      }
+    },
+    "jupiter_copper_ore": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:jupiter",
+          "metadata": 5
+        },
+        "material": {
+          "name": "extraplanets:jupiter",
+          "metadata": 2
+        },
+        "cluster-size": 8
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 10,
+      "min-height": 0,
+      "max-height": 50,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -32
+        ]
+      }
+    },
+    "jupiter_palladium_ore": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:jupiter",
+          "metadata": 6
+        },
+        "material": {
+          "name": "extraplanets:jupiter",
+          "metadata": 2
+        },
+        "cluster-size": 4
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 6,
+      "min-height": 0,
+      "max-height": 32,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -32
+        ]
+      }
+    },
+    "jupiter_nickel_ore": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:jupiter",
+          "metadata": 7
+        },
+        "material": {
+          "name": "extraplanets:jupiter",
+          "metadata": 2
+        },
+        "cluster-size": 5
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 8,
+      "min-height": 0,
+      "max-height": 45,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -32
+        ]
+      }
+    },
+    "jupiter_red_gem_ore": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:jupiter",
+          "metadata": 8
+        },
+        "material": {
+          "name": "extraplanets:jupiter",
+          "metadata": 2
+        },
+        "cluster-size": 3
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 15,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -32
+        ]
+      }
+    },
+    "saturn_iron_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:saturn",
+          "metadata": 3
+        },
+        "material": {
+          "name": "extraplanets:saturn",
+          "metadata": 2
+        },
+        "cluster-size": 8
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 6,
+      "min-height": 0,
+      "max-height": 30,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -33
+        ]
+      }
+    },
+    "saturn_tin_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:saturn",
+          "metadata": 4
+        },
+        "material": {
+          "name": "extraplanets:saturn",
+          "metadata": 2
+        },
+        "cluster-size": 6
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 20,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -33
+        ]
+      }
+    },
+    "saturn_copper_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:saturn",
+          "metadata": 5
+        },
+        "material": {
+          "name": "extraplanets:saturn",
+          "metadata": 2
+        },
+        "cluster-size": 8
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 6,
+      "min-height": 20,
+      "max-height": 60,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -33
+        ]
+      }
+    },
+    "saturn_magnesium_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:saturn",
+          "metadata": 6
+        },
+        "material": {
+          "name": "extraplanets:saturn",
+          "metadata": 2
+        },
+        "cluster-size": 5
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 4,
+      "min-height": 5,
+      "max-height": 25,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -33
+        ]
+      }
+    },
+    "saturn_slime_surface": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:saturn",
+          "metadata": 7
+        },
+        "material": {
+          "name": "extraplanets:saturn",
+          "metadata": 2
+        },
+        "cluster-size": 3
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 2,
+      "min-height": 50,
+      "max-height": 70,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -33
+        ]
+      }
+    },
+    "uranus_crystal_ore": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:uranus",
+          "metadata": 3
+        },
+        "material": {
+          "name": "extraplanets:uranus",
+          "metadata": 2
+        },
+        "cluster-size": 5
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 8,
+      "min-height": 12,
+      "max-height": 28,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -34
+        ]
+      }
+    },
+    "uranus_crystal_surface": {
+      "distribution": "surface",
+      "generator": {
+        "type": "sparse-cluster",
+        "block": {
+          "name": "extraplanets:uranus",
+          "metadata": 3
+        },
+        "material": [
+          {
+            "name": "extraplanets:uranus",
+            "metadata": 2
+          },
+          {
+            "name": "extraplanets:uranus",
+            "metadata": 1
+          }
+        ],
+        "cluster-size": 3
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 4,
+      "follow-terrain": true,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -34
+        ]
+      }
+    },
+    "uranus_white_gem_ore": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:uranus",
+          "metadata": 4
+        },
+        "material": {
+          "name": "extraplanets:uranus",
+          "metadata": 2
+        },
+        "cluster-size": 3
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 3,
+      "max-height": 12,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -34
+        ]
+      }
+    },
+    "uranus_white_gem_surface": {
+      "distribution": "surface",
+      "generator": {
+        "type": "sparse-cluster",
+        "block": {
+          "name": "extraplanets:uranus",
+          "metadata": 4
+        },
+        "material": [
+          {
+            "name": "extraplanets:uranus",
+            "metadata": 2
+          },
+          {
+            "name": "extraplanets:uranus",
+            "metadata": 1
+          }
+        ],
+        "cluster-size": 2
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 3,
+      "follow-terrain": true,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -34
+        ]
+      }
+    },
+    "neptune_iron_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:neptune",
+          "metadata": 3
+        },
+        "material": {
+          "name": "extraplanets:neptune",
+          "metadata": 2
+        },
+        "cluster-size": 8
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 6,
+      "min-height": 30,
+      "max-height": 60,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -35
+        ]
+      }
+    },
+    "neptune_tin_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:neptune",
+          "metadata": 4
+        },
+        "material": {
+          "name": "extraplanets:neptune",
+          "metadata": 2
+        },
+        "cluster-size": 7
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 20,
+      "max-height": 50,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -35
+        ]
+      }
+    },
+    "neptune_copper_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:neptune",
+          "metadata": 5
+        },
+        "material": {
+          "name": "extraplanets:neptune",
+          "metadata": 2
+        },
+        "cluster-size": 8
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 6,
+      "min-height": 10,
+      "max-height": 45,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -35
+        ]
+      }
+    },
+    "neptune_zink_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:neptune",
+          "metadata": 6
+        },
+        "material": {
+          "name": "extraplanets:neptune",
+          "metadata": 2
+        },
+        "cluster-size": 6
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 4,
+      "min-height": 5,
+      "max-height": 30,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -35
+        ]
+      }
+    },
+    "neptune_bluegem_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:neptune",
+          "metadata": 7
+        },
+        "material": {
+          "name": "extraplanets:neptune",
+          "metadata": 2
+        },
+        "cluster-size": 3
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 15,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -35
+        ]
+      }
+    },
+    "pluto_iron_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:pluto",
+          "metadata": 3
+        },
+        "material": {
+          "name": "extraplanets:pluto",
+          "metadata": 2
+        },
+        "cluster-size": 8
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 6,
+      "min-height": 40,
+      "max-height": 80,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -36
+        ]
+      }
+    },
+    "pluto_copper_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:pluto",
+          "metadata": 4
+        },
+        "material": {
+          "name": "extraplanets:pluto",
+          "metadata": 2
+        },
+        "cluster-size": 8
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 6,
+      "min-height": 20,
+      "max-height": 60,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -36
+        ]
+      }
+    },
+    "pluto_tin_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:pluto",
+          "metadata": 5
+        },
+        "material": {
+          "name": "extraplanets:pluto",
+          "metadata": 2
+        },
+        "cluster-size": 7
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 20,
+      "max-height": 55,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -36
+        ]
+      }
+    },
+    "pluto_tungsten_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:pluto",
+          "metadata": 6
+        },
+        "material": {
+          "name": "extraplanets:pluto",
+          "metadata": 2
+        },
+        "cluster-size": 4
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 3,
+      "min-height": 0,
+      "max-height": 40,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -36
+        ]
+      }
+    },
+    "eris_iron_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:eris",
+          "metadata": 3
+        },
+        "material": {
+          "name": "extraplanets:eris",
+          "metadata": 2
+        },
+        "cluster-size": 8
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 6,
+      "min-height": 20,
+      "max-height": 45,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -37
+        ]
+      }
+    },
+    "eris_tin_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:eris",
+          "metadata": 4
+        },
+        "material": {
+          "name": "extraplanets:eris",
+          "metadata": 2
+        },
+        "cluster-size": 7
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 30,
+      "max-height": 55,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -37
+        ]
+      }
+    },
+    "eris_copper_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:eris",
+          "metadata": 5
+        },
+        "material": {
+          "name": "extraplanets:eris",
+          "metadata": 2
+        },
+        "cluster-size": 8
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 6,
+      "min-height": 15,
+      "max-height": 50,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -37
+        ]
+      }
+    },
+    "eris_dark_iron_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:eris",
+          "metadata": 6
+        },
+        "material": {
+          "name": "extraplanets:eris",
+          "metadata": 2
+        },
+        "cluster-size": 6
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 4,
+      "min-height": 25,
+      "max-height": 50,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -37
+        ]
+      }
+    },
+    "kepler22b_iron_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:kepler22b",
+          "metadata": 3
+        },
+        "material": {
+          "name": "extraplanets:kepler22b",
+          "metadata": 2
+        },
+        "cluster-size": 8
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 6,
+      "min-height": 40,
+      "max-height": 70,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -22
+        ]
+      }
+    },
+    "kepler22b_tin_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:kepler22b",
+          "metadata": 4
+        },
+        "material": {
+          "name": "extraplanets:kepler22b",
+          "metadata": 2
+        },
+        "cluster-size": 7
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 40,
+      "max-height": 65,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -22
+        ]
+      }
+    },
+    "kepler22b_copper_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:kepler22b",
+          "metadata": 5
+        },
+        "material": {
+          "name": "extraplanets:kepler22b",
+          "metadata": 2
+        },
+        "cluster-size": 8
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 6,
+      "min-height": 25,
+      "max-height": 50,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -22
+        ]
+      }
+    },
+    "kepler22b_dense_coal_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:kepler22b",
+          "metadata": 6
+        },
+        "material": {
+          "name": "extraplanets:kepler22b",
+          "metadata": 2
+        },
+        "cluster-size": 10
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 8,
+      "min-height": 5,
+      "max-height": 30,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -22
+        ]
+      }
+    },
+    "kepler22b_blue_diamond_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:kepler22b",
+          "metadata": 7
+        },
+        "material": {
+          "name": "extraplanets:kepler22b",
+          "metadata": 2
+        },
+        "cluster-size": 4
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 3,
+      "min-height": 0,
+      "max-height": 12,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -22
+        ]
+      }
+    },
+    "kepler22b_red_diamond_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:kepler22b",
+          "metadata": 8
+        },
+        "material": {
+          "name": "extraplanets:kepler22b",
+          "metadata": 2
+        },
+        "cluster-size": 4
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 3,
+      "min-height": 0,
+      "max-height": 12,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -22
+        ]
+      }
+    },
+    "kepler22b_purple_diamond_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:kepler22b",
+          "metadata": 9
+        },
+        "material": {
+          "name": "extraplanets:kepler22b",
+          "metadata": 2
+        },
+        "cluster-size": 4
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 3,
+      "min-height": 0,
+      "max-height": 10,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -22
+        ]
+      }
+    },
+    "kepler22b_yellow_diamond_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:kepler22b",
+          "metadata": 10
+        },
+        "material": {
+          "name": "extraplanets:kepler22b",
+          "metadata": 2
+        },
+        "cluster-size": 4
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 3,
+      "min-height": 0,
+      "max-height": 12,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -22
+        ]
+      }
+    },
+    "kepler22b_green_diamond_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:kepler22b",
+          "metadata": 11
+        },
+        "material": {
+          "name": "extraplanets:kepler22b",
+          "metadata": 2
+        },
+        "cluster-size": 4
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 3,
+      "min-height": 0,
+      "max-height": 10,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -22
+        ]
+      }
+    },
+    "kepler22b_platinum_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:kepler22b",
+          "metadata": 12
+        },
+        "material": {
+          "name": "extraplanets:kepler22b",
+          "metadata": 2
+        },
+        "cluster-size": 3
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 32,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -22
+        ]
+      }
+    },
+    "europa_iron_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:europa",
+          "metadata": 3
+        },
+        "material": {
+          "name": "extraplanets:europa",
+          "metadata": 2
+        },
+        "cluster-size": 8
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 6,
+      "min-height": 30,
+      "max-height": 60,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -40
+        ]
+      }
+    },
+    "europa_tin_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:europa",
+          "metadata": 4
+        },
+        "material": {
+          "name": "extraplanets:europa",
+          "metadata": 2
+        },
+        "cluster-size": 4
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 2,
+      "min-height": 0,
+      "max-height": 15,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -40
+        ]
+      }
+    },
+    "europa_copper_crust": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:europa",
+          "metadata": 5
+        },
+        "material": {
+          "name": "extraplanets:europa",
+          "metadata": 2
+        },
+        "cluster-size": 5
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 3,
+      "min-height": 5,
+      "max-height": 25,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -40
+        ]
+      }
+    },
+    "io_iron": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:io",
+          "metadata": 3
+        },
+        "material": {
+          "name": "extraplanets:io",
+          "metadata": 2
+        },
+        "cluster-size": 7
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 6,
+      "min-height": 5,
+      "max-height": 45,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1500
+        ]
+      }
+    },
+    "io_tin": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:io",
+          "metadata": 4
+        },
+        "material": {
+          "name": "extraplanets:io",
+          "metadata": 2
+        },
+        "cluster-size": 6
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 15,
+      "max-height": 50,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1500
+        ]
+      }
+    },
+    "io_copper": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:io",
+          "metadata": 5
+        },
+        "material": {
+          "name": "extraplanets:io",
+          "metadata": 2
+        },
+        "cluster-size": 7
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 6,
+      "min-height": 10,
+      "max-height": 40,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1500
+        ]
+      }
+    },
+    "deimos_iron": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:deimos",
+          "metadata": 3
+        },
+        "material": {
+          "name": "extraplanets:deimos",
+          "metadata": 2
+        },
+        "cluster-size": 6
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 10,
+      "max-height": 45,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1503
+        ]
+      }
+    },
+    "deimos_tin": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:deimos",
+          "metadata": 4
+        },
+        "material": {
+          "name": "extraplanets:deimos",
+          "metadata": 2
+        },
+        "cluster-size": 5
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 4,
+      "min-height": 30,
+      "max-height": 60,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1503
+        ]
+      }
+    },
+    "deimos_copper": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:deimos",
+          "metadata": 5
+        },
+        "material": {
+          "name": "extraplanets:deimos",
+          "metadata": 2
+        },
+        "cluster-size": 6
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 25,
+      "max-height": 55,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1503
+        ]
+      }
+    },
+    "lead_deimos": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:ore_lead",
+          "metadata": 0
+        },
+        "material": {
+          "name": "extraplanets:deimos",
+          "metadata": 2
+        },
+        "cluster-size": 4
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 3,
+      "min-height": 0,
+      "max-height": 25,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1503
+        ]
+      }
+    },
+    "phobos_iron": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:phobos",
+          "metadata": 3
+        },
+        "material": {
+          "name": "extraplanets:phobos",
+          "metadata": 2
+        },
+        "cluster-size": 6
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 5,
+      "max-height": 40,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1502
+        ]
+      }
+    },
+    "phobos_tin": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:phobos",
+          "metadata": 4
+        },
+        "material": {
+          "name": "extraplanets:phobos",
+          "metadata": 2
+        },
+        "cluster-size": 5
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 4,
+      "min-height": 20,
+      "max-height": 45,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1502
+        ]
+      }
+    },
+    "phobos_copper": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:phobos",
+          "metadata": 5
+        },
+        "material": {
+          "name": "extraplanets:phobos",
+          "metadata": 2
+        },
+        "cluster-size": 6
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 15,
+      "max-height": 45,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1502
+        ]
+      }
+    },
+    "lead_phobos": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:ore_lead",
+          "metadata": 0
+        },
+        "material": {
+          "name": "extraplanets:phobos",
+          "metadata": 2
+        },
+        "cluster-size": 4
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 4,
+      "min-height": 0,
+      "max-height": 30,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1502
+        ]
+      }
+    },
+    "triton_iron": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:triton",
+          "metadata": 3
+        },
+        "material": {
+          "name": "extraplanets:triton",
+          "metadata": 2
+        },
+        "cluster-size": 5
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 4,
+      "min-height": 10,
+      "max-height": 40,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1504
+        ]
+      }
+    },
+    "triton_tin": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:triton",
+          "metadata": 4
+        },
+        "material": {
+          "name": "extraplanets:triton",
+          "metadata": 2
+        },
+        "cluster-size": 4
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 3,
+      "min-height": 5,
+      "max-height": 30,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1504
+        ]
+      }
+    },
+    "triton_copper": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:triton",
+          "metadata": 5
+        },
+        "material": {
+          "name": "extraplanets:triton",
+          "metadata": 2
+        },
+        "cluster-size": 5
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 4,
+      "min-height": 5,
+      "max-height": 25,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1504
+        ]
+      }
+    },
+    "callisto_iron": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:callisto",
+          "metadata": 3
+        },
+        "material": {
+          "name": "extraplanets:callisto",
+          "metadata": 2
+        },
+        "cluster-size": 7
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 6,
+      "min-height": 10,
+      "max-height": 50,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1505
+        ]
+      }
+    },
+    "callisto_tin": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:callisto",
+          "metadata": 4
+        },
+        "material": {
+          "name": "extraplanets:callisto",
+          "metadata": 2
+        },
+        "cluster-size": 6
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 25,
+      "max-height": 60,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1505
+        ]
+      }
+    },
+    "callisto_copper": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:callisto",
+          "metadata": 5
+        },
+        "material": {
+          "name": "extraplanets:callisto",
+          "metadata": 2
+        },
+        "cluster-size": 7
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 6,
+      "min-height": 15,
+      "max-height": 50,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1505
+        ]
+      }
+    },
+    "ganymede_iron": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:ganymede",
+          "metadata": 3
+        },
+        "material": {
+          "name": "extraplanets:ganymede",
+          "metadata": 2
+        },
+        "cluster-size": 7
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 6,
+      "min-height": 20,
+      "max-height": 65,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1506
+        ]
+      }
+    },
+    "ganymede_tin": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:ganymede",
+          "metadata": 4
+        },
+        "material": {
+          "name": "extraplanets:ganymede",
+          "metadata": 2
+        },
+        "cluster-size": 6
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 30,
+      "max-height": 60,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1506
+        ]
+      }
+    },
+    "ganymede_copper": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:ganymede",
+          "metadata": 5
+        },
+        "material": {
+          "name": "extraplanets:ganymede",
+          "metadata": 2
+        },
+        "cluster-size": 7
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 6,
+      "min-height": 25,
+      "max-height": 55,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1506
+        ]
+      }
+    },
+    "rhea_iron": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:rhea",
+          "metadata": 3
+        },
+        "material": {
+          "name": "extraplanets:rhea",
+          "metadata": 2
+        },
+        "cluster-size": 6
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 15,
+      "max-height": 50,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1507
+        ]
+      }
+    },
+    "rhea_tin": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:rhea",
+          "metadata": 4
+        },
+        "material": {
+          "name": "extraplanets:rhea",
+          "metadata": 2
+        },
+        "cluster-size": 5
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 4,
+      "min-height": 20,
+      "max-height": 45,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1507
+        ]
+      }
+    },
+    "rhea_copper": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:rhea",
+          "metadata": 5
+        },
+        "material": {
+          "name": "extraplanets:rhea",
+          "metadata": 2
+        },
+        "cluster-size": 6
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 15,
+      "max-height": 45,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1507
+        ]
+      }
+    },
+    "titan_iron": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:titan",
+          "metadata": 3
+        },
+        "material": {
+          "name": "extraplanets:titan",
+          "metadata": 2
+        },
+        "cluster-size": 6
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 10,
+      "max-height": 45,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1508
+        ]
+      }
+    },
+    "titan_tin": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:titan",
+          "metadata": 4
+        },
+        "material": {
+          "name": "extraplanets:titan",
+          "metadata": 2
+        },
+        "cluster-size": 5
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 4,
+      "min-height": 25,
+      "max-height": 50,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1508
+        ]
+      }
+    },
+    "titan_copper": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:titan",
+          "metadata": 5
+        },
+        "material": {
+          "name": "extraplanets:titan",
+          "metadata": 2
+        },
+        "cluster-size": 6
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 5,
+      "max-height": 35,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1508
+        ]
+      }
+    },
+    "oberon_iron": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:oberon",
+          "metadata": 3
+        },
+        "material": {
+          "name": "extraplanets:oberon",
+          "metadata": 2
+        },
+        "cluster-size": 6
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 15,
+      "max-height": 50,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1509
+        ]
+      }
+    },
+    "oberon_tin": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:oberon",
+          "metadata": 4
+        },
+        "material": {
+          "name": "extraplanets:oberon",
+          "metadata": 2
+        },
+        "cluster-size": 5
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 4,
+      "min-height": 20,
+      "max-height": 45,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1509
+        ]
+      }
+    },
+    "oberon_copper": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:oberon",
+          "metadata": 5
+        },
+        "material": {
+          "name": "extraplanets:oberon",
+          "metadata": 2
+        },
+        "cluster-size": 6
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 15,
+      "max-height": 45,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1509
+        ]
+      }
+    },
+    "titania_iron": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:titania",
+          "metadata": 3
+        },
+        "material": {
+          "name": "extraplanets:titania",
+          "metadata": 2
+        },
+        "cluster-size": 6
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 15,
+      "max-height": 50,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1510
+        ]
+      }
+    },
+    "titania_tin": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:titania",
+          "metadata": 4
+        },
+        "material": {
+          "name": "extraplanets:titania",
+          "metadata": 2
+        },
+        "cluster-size": 5
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 4,
+      "min-height": 5,
+      "max-height": 35,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1510
+        ]
+      }
+    },
+    "titania_copper": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:titania",
+          "metadata": 5
+        },
+        "material": {
+          "name": "extraplanets:titania",
+          "metadata": 2
+        },
+        "cluster-size": 6
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 20,
+      "max-height": 50,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1510
+        ]
+      }
+    },
+    "iapetus_iron": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:iapetus",
+          "metadata": 3
+        },
+        "material": {
+          "name": "extraplanets:iapetus",
+          "metadata": 2
+        },
+        "cluster-size": 6
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 10,
+      "max-height": 45,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1511
+        ]
+      }
+    },
+    "iapetus_tin": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:iapetus",
+          "metadata": 4
+        },
+        "material": {
+          "name": "extraplanets:iapetus",
+          "metadata": 2
+        },
+        "cluster-size": 5
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 4,
+      "min-height": 15,
+      "max-height": 40,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1511
+        ]
+      }
+    },
+    "iapetus_copper": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "extraplanets:iapetus",
+          "metadata": 5
+        },
+        "material": {
+          "name": "extraplanets:iapetus",
+          "metadata": 2
+        },
+        "cluster-size": 6
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 5,
+      "max-height": 40,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1511
+        ]
+      }
+    }
+  }
+}

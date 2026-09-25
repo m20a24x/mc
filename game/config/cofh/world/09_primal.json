@@ -1,0 +1,300 @@
+{
+  "populate": {
+    "halite_salt_ore": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "primal:ore_salt",
+          "metadata": 0
+        },
+        "material": "minecraft:stone",
+        "cluster-size": 5
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 6,
+      "min-height": 5,
+      "max-height": 30,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      }
+    },
+    "fire_salt_ore": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "primal:ore_salt",
+          "metadata": 1
+        },
+        "material": "minecraft:netherrack",
+        "cluster-size": 4
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 4,
+      "min-height": 20,
+      "max-height": 40,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1
+        ]
+      }
+    },
+    "void_salt_ore": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "primal:ore_salt",
+          "metadata": 2
+        },
+        "material": "minecraft:end_stone",
+        "cluster-size": 4
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 0,
+      "max-height": 60,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          1
+        ]
+      }
+    },
+    "ore_iron_overworld": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "primal:ore_iron"
+        },
+        "material": "minecraft:stone",
+        "cluster-size": 6
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 8,
+      "min-height": 5,
+      "max-height": 60,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      }
+    },
+    "stone_magnetite_ore": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "primal:ore_magnetite",
+          "metadata": 0
+        },
+        "material": "minecraft:stone",
+        "cluster-size": 5
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 6,
+      "min-height": 5,
+      "max-height": 60,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      }
+    },
+    "netherrack_magnetite_ore": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "primal:ore_magnetite",
+          "metadata": 1
+        },
+        "material": "minecraft:netherrack",
+        "cluster-size": 4
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 20,
+      "max-height": 80,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1
+        ]
+      }
+    },
+    "ferrocalcite_magnetite_ore": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "primal:ore_magnetite",
+          "metadata": 2
+        },
+        "material": "primal:ferro_stone",
+        "cluster-size": 3
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 4,
+      "min-height": 10,
+      "max-height": 50,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      }
+    },
+    "carbonate_zinc_ore": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "primal:ore_zinc",
+          "metadata": 0
+        },
+        "material": "primal:carbonate_stone",
+        "cluster-size": 4
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 10,
+      "max-height": 60,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      }
+    },
+    "netherrack_zinc_ore": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "primal:ore_zinc",
+          "metadata": 1
+        },
+        "material": "minecraft:netherrack",
+        "cluster-size": 4
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 4,
+      "min-height": 20,
+      "max-height": 80,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1
+        ]
+      }
+    },
+    "end_zinc_ore": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "primal:ore_zinc",
+          "metadata": 2
+        },
+        "material": "minecraft:end_stone",
+        "cluster-size": 5
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 6,
+      "min-height": 0,
+      "max-height": 60,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          1
+        ]
+      }
+    },
+    "netherrack_opal_ore": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "primal:ore_opal"
+        },
+        "material": "minecraft:netherrack",
+        "cluster-size": 3
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 4,
+      "min-height": 20,
+      "max-height": 80,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          -1
+        ]
+      }
+    },
+    "mud_bog_iron": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "primal:ore_bog_iron"
+        },
+        "material": "primal:mud_wet",
+        "cluster-size": 4
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 5,
+      "min-height": 40,
+      "max-height": 60,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      }
+    },
+    "satetsu_ore": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "primal:satetsu",
+          "metadata": 0
+        },
+        "material": "minecraft:sand",
+        "cluster-size": 4
+      },
+      "chunk-chance": 1000,
+      "cluster-count": 3,
+      "min-height": 55,
+      "max-height": 75,
+      "retrogen": false,
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      }
+    }
+  }
+}

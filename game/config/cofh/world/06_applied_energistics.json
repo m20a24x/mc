@@ -1,0 +1,140 @@
+{
+  "populate": {
+    "certus_quartz_metamorphic_vein": {
+      "distribution": "fractal",
+      "generator": {
+        "type": "large-vein",
+        "block": "appliedenergistics2:quartz_ore",
+        "material": "minecraft:stone",
+        "cluster-size": 14
+      },
+      "cluster-count": 4,
+      "chunk-chance": 1000,
+      "min-height": 10,
+      "max-height": 55,
+      "vein-height": 4,
+      "vein-diameter": 6,
+      "vertical-density": 5,
+      "horizontal-density": 3,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "MOUNTAIN"
+            ]
+          },
+          "minecraft:extreme_hills",
+          "minecraft:extreme_hills_with_trees",
+          "minecraft:smaller_extreme_hills",
+          "minecraft:mutated_extreme_hills",
+          "minecraft:mutated_extreme_hills_with_trees",
+          "minecraft:forest_hills"
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "certus_quartz_pegmatite": {
+      "distribution": "gaussian",
+      "generator": {
+        "type": "cluster",
+        "block": "appliedenergistics2:quartz_ore",
+        "material": "minecraft:stone",
+        "cluster-size": 8
+      },
+      "cluster-count": 3,
+      "chunk-chance": 1000,
+      "center-height": 28,
+      "spread": 16,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "MOUNTAIN"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "charged_certus_quartz_rare_vein": {
+      "distribution": "fractal",
+      "generator": {
+        "type": "large-vein",
+        "block": "appliedenergistics2:charged_quartz_ore",
+        "material": "minecraft:stone",
+        "cluster-size": 6
+      },
+      "cluster-count": 2,
+      "chunk-chance": 1000,
+      "min-height": 5,
+      "max-height": 35,
+      "vein-height": 3,
+      "vein-diameter": 4,
+      "vertical-density": 3,
+      "horizontal-density": 2,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          "minecraft:extreme_hills",
+          "minecraft:extreme_hills_with_trees",
+          "minecraft:mutated_extreme_hills",
+          "minecraft:mutated_extreme_hills_with_trees"
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "charged_certus_quartz_thunder_peak": {
+      "distribution": "surface",
+      "generator": {
+        "type": "sparse-cluster",
+        "block": "appliedenergistics2:charged_quartz_ore",
+        "material": [
+          "minecraft:stone",
+          "minecraft:dirt",
+          "minecraft:grass"
+        ],
+        "cluster-size": 3,
+        "sparse-radius": 3,
+        "sparse-clusters": 4
+      },
+      "cluster-count": 1,
+      "chunk-chance": 1000,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          "minecraft:extreme_hills",
+          "minecraft:extreme_hills_with_trees"
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    }
+  }
+}

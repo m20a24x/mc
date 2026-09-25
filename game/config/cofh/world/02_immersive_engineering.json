@@ -1,0 +1,390 @@
+{
+  "populate": {
+    "copper_porphyry_mountain": {
+      "distribution": "fractal",
+      "generator": {
+        "type": "large-vein",
+        "block": {
+          "name": "immersiveengineering:ore",
+          "properties": {
+            "type": "copper"
+          }
+        },
+        "material": "minecraft:stone",
+        "cluster-size": 22
+      },
+      "cluster-count": 4,
+      "chunk-chance": 1000,
+      "min-height": 10,
+      "max-height": 65,
+      "vein-height": 5,
+      "vein-diameter": 8,
+      "vertical-density": 6,
+      "horizontal-density": 4,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "MOUNTAIN",
+              "MESA"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "copper_sedimentary_strata": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "plate",
+        "block": {
+          "name": "immersiveengineering:ore",
+          "properties": {
+            "type": "copper"
+          }
+        },
+        "material": [
+          "minecraft:stone",
+          "minecraft:sandstone"
+        ],
+        "radius": 10
+      },
+      "cluster-count": 3,
+      "chunk-chance": 1000,
+      "min-height": 35,
+      "max-height": 60,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "MESA"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "copper_surface_malachite": {
+      "distribution": "surface",
+      "generator": {
+        "type": "decoration",
+        "block": {
+          "name": "immersiveengineering:ore",
+          "properties": {
+            "type": "copper"
+          }
+        },
+        "material": [
+          "minecraft:stone",
+          "minecraft:dirt",
+          "minecraft:grass"
+        ],
+        "cluster-size": 4
+      },
+      "cluster-count": 2,
+      "chunk-chance": 1000,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "MOUNTAIN",
+              "MESA"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "bauxite_laterite_jungle": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "plate",
+        "block": {
+          "name": "immersiveengineering:ore",
+          "properties": {
+            "type": "aluminum"
+          }
+        },
+        "material": "minecraft:stone",
+        "radius": 12
+      },
+      "cluster-count": 5,
+      "chunk-chance": 1000,
+      "min-height": 40,
+      "max-height": 80,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "JUNGLE"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "lead_galena_vein": {
+      "distribution": "fractal",
+      "generator": {
+        "type": "large-vein",
+        "block": {
+          "name": "immersiveengineering:ore",
+          "properties": {
+            "type": "lead"
+          }
+        },
+        "material": "minecraft:stone",
+        "cluster-size": 12
+      },
+      "cluster-count": 4,
+      "chunk-chance": 1000,
+      "min-height": 5,
+      "max-height": 40,
+      "vein-height": 3,
+      "vein-diameter": 5,
+      "vertical-density": 4,
+      "horizontal-density": 2,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "MOUNTAIN",
+              "MESA"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "silver_epithermal_vein": {
+      "distribution": "gaussian",
+      "generator": {
+        "type": "large-vein",
+        "block": {
+          "name": "immersiveengineering:ore",
+          "properties": {
+            "type": "silver"
+          }
+        },
+        "material": "minecraft:stone",
+        "cluster-size": 8
+      },
+      "cluster-count": 3,
+      "chunk-chance": 1000,
+      "center-height": 24,
+      "spread": 16,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "MOUNTAIN"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "silver_surface_bonanza": {
+      "distribution": "surface",
+      "generator": {
+        "type": "sparse-cluster",
+        "block": {
+          "name": "immersiveengineering:ore",
+          "properties": {
+            "type": "silver"
+          }
+        },
+        "material": [
+          "minecraft:stone",
+          "minecraft:dirt",
+          "minecraft:grass"
+        ],
+        "cluster-size": 3,
+        "sparse-radius": 4,
+        "sparse-clusters": 5
+      },
+      "cluster-count": 1,
+      "chunk-chance": 1000,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "MOUNTAIN",
+              "MESA"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "nickel_laterite_jungle": {
+      "distribution": "uniform",
+      "generator": {
+        "type": "plate",
+        "block": {
+          "name": "immersiveengineering:ore",
+          "properties": {
+            "type": "nickel"
+          }
+        },
+        "material": "minecraft:stone",
+        "radius": 8
+      },
+      "cluster-count": 3,
+      "chunk-chance": 1000,
+      "min-height": 10,
+      "max-height": 35,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "JUNGLE"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "nickel_sulfide_mafic_intrusion": {
+      "distribution": "gaussian",
+      "generator": {
+        "type": "large-vein",
+        "block": {
+          "name": "immersiveengineering:ore",
+          "properties": {
+            "type": "nickel"
+          }
+        },
+        "material": "minecraft:stone",
+        "cluster-size": 10
+      },
+      "cluster-count": 2,
+      "chunk-chance": 1000,
+      "center-height": 14,
+      "spread": 10,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "COLD",
+              "CONIFEROUS"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    },
+    "uranium_sandstone_desert": {
+      "distribution": "gaussian",
+      "generator": {
+        "type": "cluster",
+        "block": {
+          "name": "immersiveengineering:ore",
+          "properties": {
+            "type": "uranium"
+          }
+        },
+        "material": [
+          "minecraft:stone",
+          "minecraft:sandstone"
+        ],
+        "cluster-size": 5
+      },
+      "cluster-count": 1,
+      "chunk-chance": 1000,
+      "center-height": 16,
+      "spread": 10,
+      "biome": {
+        "restriction": "whitelist",
+        "value": [
+          {
+            "type": "dictionary",
+            "entry": [
+              "SANDY",
+              "MESA"
+            ]
+          }
+        ]
+      },
+      "dimension": {
+        "restriction": "whitelist",
+        "value": [
+          0
+        ]
+      },
+      "retrogen": false
+    }
+  }
+}
